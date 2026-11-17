@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pusan Dhar • Materials Engineer &amp; Researcher</title>
+<meta name="description" content="Pusan Dhar — Materials Engineer & Researcher. Composites, thermographic NDT, finite element analysis and deep learning for materials characterization.">
+
+<!--
+  ============================================================================
+  PUSAN DHAR — PERSONAL PORTFOLIO  (single file, no internet needed)
+  ----------------------------------------------------------------------------
+  HOW TO EDIT
+  1. Everything visible on the page can be edited from the page itself:
+     every section has "Edit" / "Add" buttons. Changes save to this browser.
+  2. To change the permanent default content, scroll to <script> at the bottom
+     and edit the DEFAULTS object (profile, about, experience, research,
+     skills, awards, certificates, posts, contact).
+  3. Colours: each section sets its own accent with style="--accent:#xxxxxx".
+     Change that hex value to recolour that section.
+  4. To publish: upload this file + Pusan_Dhar_Resume.pdf to any static host
+     (Vercel, Netlify, GitHub Pages).
+  ============================================================================
+-->
+
+<style>
+/* ============================ THEME TOKENS ============================ */
+:root{
+  --ink:#0f1b38;          /* headings */
+  --text:#1c2740;         /* body text */
+  --muted:#5b6886;        /* secondary text */
+  --line:#e2e7f0;         /* borders */
+  --paper:#ffffff;
+  --navy:#0a172d;         /* deep navy hero/footer */
+  --navy-2:#112447;
+  --blue:#1d4ed8;
+  --blue-dk:#14337a;
+  --teal:#0f766e;
+  --amber:#b45309;
+  --rose:#9f1239;
+  --violet:#5b21b6;
+  --emerald:#047857;
+  --radius:24px;
+  --shadow-sm:0 1px 3px rgba(10,23,45,.08), 0 2px 6px rgba(10,23,45,.06);
+  --shadow-md:0 20px 44px -20px rgba(10,23,45,.30);
+  --shadow-lg:0 36px 70px -28px rgba(10,23,45,.42);
+
+  /* background textures (masks painted in section accent) */
+  --tex-dots:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2726%27%20height%3D%2726%27%3E%3Ccircle%20cx%3D%2713%27%20cy%3D%2713%27%20r%3D%271.4%27%20fill%3D%27%23000%27%2F%3E%3C%2Fsvg%3E");
+  --tex-grid:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27104%27%20height%3D%27104%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27%23000%27%3E%3Cpath%20d%3D%27M26%200V104M52%200V104M78%200V104M0%2026H104M0%2052H104M0%2078H104%27%20stroke-width%3D%271%27%20stroke-opacity%3D%27.55%27%2F%3E%3Cpath%20d%3D%27M0%200V104M0%200H104%27%20stroke-width%3D%271.4%27%20stroke-opacity%3D%27.85%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  --tex-cross:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2730%27%20height%3D%2730%27%3E%3Cpath%20d%3D%27M15%2010.6v8.8M10.6%2015h8.8%27%20fill%3D%27none%27%20stroke%3D%27%23000%27%20stroke-width%3D%271.2%27%20stroke-linecap%3D%27round%27%2F%3E%3C%2Fsvg%3E");
+  --tex-diamond:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2730%27%20height%3D%2730%27%3E%3Cpath%20d%3D%27M15%201.6%2028.4%2015%2015%2028.4%201.6%2015Z%27%20fill%3D%27none%27%20stroke%3D%27%23000%27%20stroke-width%3D%271.1%27%20stroke-opacity%3D%27.8%27%2F%3E%3C%2Fsvg%3E");
+  --tex-diag:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2712%27%20height%3D%2712%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27%23000%27%20stroke-width%3D%271.1%27%20stroke-opacity%3D%27.75%27%3E%3Cpath%20d%3D%27M-3%203%203%20-3M0%2012%2012%200M9%2015%2015%209%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  --tex-weave:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2716%27%20height%3D%2716%27%3E%3Cdefs%3E%3Cpattern%20id%3D%27a%27%20width%3D%274%27%20height%3D%274%27%20patternUnits%3D%27userSpaceOnUse%27%20patternTransform%3D%27rotate%2845%29%27%3E%3Cpath%20d%3D%27M0%200V4%27%20stroke%3D%27%23000%27%20stroke-width%3D%271.7%27%2F%3E%3C%2Fpattern%3E%3Cpattern%20id%3D%27b%27%20width%3D%274%27%20height%3D%274%27%20patternUnits%3D%27userSpaceOnUse%27%20patternTransform%3D%27rotate%28-45%29%27%3E%3Cpath%20d%3D%27M0%200V4%27%20stroke%3D%27%23000%27%20stroke-width%3D%271.7%27%2F%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D%278%27%20height%3D%278%27%20fill%3D%27url%28%23a%29%27%2F%3E%3Crect%20x%3D%278%27%20y%3D%278%27%20width%3D%278%27%20height%3D%278%27%20fill%3D%27url%28%23a%29%27%2F%3E%3Crect%20x%3D%278%27%20width%3D%278%27%20height%3D%278%27%20fill%3D%27url%28%23b%29%27%2F%3E%3Crect%20y%3D%278%27%20width%3D%278%27%20height%3D%278%27%20fill%3D%27url%28%23b%29%27%2F%3E%3C%2Fsvg%3E");
+  --tex-rules:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2728%27%20height%3D%2728%27%3E%3Cpath%20d%3D%27M0%2027.5H28%27%20fill%3D%27none%27%20stroke%3D%27%23000%27%20stroke-width%3D%271.1%27%20stroke-opacity%3D%27.8%27%2F%3E%3C%2Fsvg%3E");
+  --tex-hatch:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2716%27%20height%3D%2716%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27%23000%27%20stroke-width%3D%271%27%20stroke-opacity%3D%27.6%27%3E%3Cpath%20d%3D%27M0%2016%2016%200M0%200%2016%2016%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  --grain-dark:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27160%27%20height%3D%27160%27%3E%3Cfilter%20id%3D%27g%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%27.9%27%20numOctaves%3D%274%27%20stitchTiles%3D%27stitch%27%2F%3E%3CfeColorMatrix%20type%3D%27saturate%27%20values%3D%270%27%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D%27160%27%20height%3D%27160%27%20filter%3D%27url%28%23g%29%27%20opacity%3D%27.07%27%2F%3E%3C%2Fsvg%3E");
+  --grain-light:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27160%27%20height%3D%27160%27%3E%3Cfilter%20id%3D%27g%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%27.9%27%20numOctaves%3D%274%27%20stitchTiles%3D%27stitch%27%2F%3E%3CfeColorMatrix%20type%3D%27saturate%27%20values%3D%270%27%2F%3E%3C%2Ffilter%3E%3CfeComponentTransfer%3E%3CfeFuncR%20type%3D%27linear%27%20slope%3D%27-1%27%20intercept%3D%271%27%2F%3E%3CfeFuncG%20type%3D%27linear%27%20slope%3D%27-1%27%20intercept%3D%271%27%2F%3E%3CfeFuncB%20type%3D%27linear%27%20slope%3D%27-1%27%20intercept%3D%271%27%2F%3E%3C%2FfeComponentTransfer%3E%3Crect%20width%3D%27160%27%20height%3D%27160%27%20filter%3D%27url%28%23g%29%27%20opacity%3D%27.10%27%2F%3E%3C%2Fsvg%3E");
+  --dots-white:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2726%27%20height%3D%2726%27%3E%3Ccircle%20cx%3D%2713%27%20cy%3D%2713%27%20r%3D%271.3%27%20fill%3D%27%23fff%27%20fill-opacity%3D%27.5%27%2F%3E%3C%2Fsvg%3E");
+  --dots-soft:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2726%27%20height%3D%2726%27%3E%3Ccircle%20cx%3D%2713%27%20cy%3D%2713%27%20r%3D%271.15%27%20fill%3D%27%23fff%27%20fill-opacity%3D%27.2%27%2F%3E%3C%2Fsvg%3E");
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color:var(--text);
+  background:linear-gradient(180deg,#ffffff 0%,#f7f9ff 40%,#f4faf9 100%);
+  -webkit-font-smoothing:antialiased;
+  line-height:1.65;
+  font-size:16px;
+}
+h1,h2,h3,h4{margin:0;color:var(--ink);letter-spacing:-.022em;line-height:1.16;font-weight:700}
+p{margin:0}
+a{color:inherit;text-decoration:none}
+svg.ic{width:15px;height:15px;flex:none;display:block}
+.serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;letter-spacing:-.01em}
+.wrap{max-width:1220px;margin:0 auto;padding:0 26px}
+
+/* ============================== TOP RULE ============================== */
+.topline{height:5px;background:linear-gradient(90deg,#1d4ed8 0%,#0f766e 28%,#b45309 52%,#9f1239 72%,#5b21b6 100%)}
+
+/* ================================ NAV ================================ */
+.nav{position:sticky;top:0;z-index:70;background:rgba(255,255,255,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:14px 0}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.logo-tile{width:46px;height:46px;border-radius:16px;display:grid;place-items:center;color:#fff;font-weight:800;letter-spacing:-.05em;font-size:20px;
+  background:linear-gradient(135deg,#1b3a8f,#1d4ed8 55%,#0f766e);box-shadow:0 10px 22px -14px rgba(29,78,216,.55)}
+.brand-text b{display:block;font-size:19px;letter-spacing:-.03em;color:var(--ink);line-height:1.15}
+.brand-text small{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.nav-links{display:flex;gap:26px;font-size:14.5px;font-weight:500}
+.nav-links a{color:var(--muted);text-decoration:none;padding:7px 0;border-bottom:3px solid transparent;transition:.25s;position:relative}
+.nav-links a:hover{color:var(--blue)}
+.nav-links a.active{color:var(--blue);font-weight:600;border-bottom-color:var(--blue)}
+.nav-actions{display:flex;align-items:center;gap:12px}
+.burger{display:none;width:46px;height:46px;border-radius:14px;border:1px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;place-items:center}
+.burger svg{width:20px;height:20px}
+.nav-mobile{display:none;border-top:1px solid var(--line);background:#fff}
+.nav-mobile.open{display:block}
+.nav-mobile a{display:block;padding:15px 26px;text-decoration:none;color:var(--text);border-bottom:1px solid #f1f4fa;font-size:15px}
+.nav-mobile a:hover{background:#f7f9ff;color:var(--blue)}
+
+/* ============================== BUTTONS ============================== */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:14px 26px;border-radius:999px;font:inherit;font-size:14px;font-weight:600;
+  cursor:pointer;text-decoration:none;border:1px solid transparent;transition:all .28s cubic-bezier(.23,1,.32,1);
+  white-space:nowrap;position:relative;overflow:hidden;
+}
+.btn:active{transform:scale(0.94)}
+.btn::before{
+  content:"";position:absolute;inset:0;border-radius:inherit;background:rgba(255,255,255,.25);
+  opacity:0;transition:opacity .28s ease;
+}
+.btn:hover::before{opacity:1}
+.btn-sm{padding:11px 20px;font-size:13.5px}
+.btn-primary{
+  background:linear-gradient(135deg,#1b3a8f,#2563eb);color:#fff;
+  box-shadow:0 12px 26px -16px rgba(37,99,235,.7);
+}
+.btn-primary:hover{filter:brightness(1.1);transform:translateY(-2px);box-shadow:0 18px 34px -18px rgba(37,99,235,.8)}
+.btn-outline{
+  background:#fff;border-color:#d9e0ef;color:var(--ink);box-shadow:var(--shadow-sm);
+}
+.btn-outline:hover{
+  border-color:var(--accent,#1d4ed8);color:var(--accent,#1d4ed8);
+  background:rgba(255,255,255,1);transform:translateY(-2px);
+  box-shadow:0 12px 28px -14px color-mix(in srgb,var(--accent,#1d4ed8) 30%,#000);
+}
+.btn-light{background:#fff;color:#123063}
+.btn-light:hover{transform:translateY(-2px);box-shadow:0 18px 34px -16px rgba(0,0,0,.14)}
+.btn-ghost-dark{
+  background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.32);color:#eaf1ff;
+}
+.btn-ghost-dark:hover{
+  background:rgba(255,255,255,.24);transform:translateY(-2px);
+  box-shadow:0 14px 30px -16px rgba(0,0,0,.5);
+}
+.btn-mini{
+  display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;border:1px solid transparent;
+  background:transparent;font:inherit;font-size:12.5px;font-weight:600;cursor:pointer;transition:all .2s;
+}
+.btn-mini:active{transform:scale(0.92)}
+.mini-edit{color:#2b48b8}
+.mini-edit:hover{background:#eef3ff;border-color:#d6e0ff;transform:translateY(-1px)}
+.mini-del{color:#b42318}
+.mini-del:hover{background:#fef2f2;border-color:#fbdada;transform:translateY(-1px)}
+.row-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+
+/* Ripple click effect on any clickable button */
+.btn-mini, .btn{
+  position:relative;
+}
+.btn-mini::after, .btn::after{
+  content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.5);transform:scale(0);opacity:0.6;pointer-events:none;
+}
+.btn-mini:active::after, .btn:active::after{
+  animation:ripple .45s ease-out;
+}
+@keyframes ripple{
+  to{transform:scale(4);opacity:0}
+}
+
+/* =============================== HERO =============================== */
+.hero{
+  position:relative;overflow:hidden;color:#eef3ff;
+  background:linear-gradient(140deg,#08172f 0%,#0f2a56 45%,#0a2340 100%);
+  padding:70px 0 90px;
+}
+.hero:before{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(1300px 600px at 8% -10%, rgba(37,99,235,.5), transparent 58%),
+    radial-gradient(1100px 500px at 96% 6%, rgba(15,118,110,.4), transparent 55%),
+    radial-gradient(900px 450px at 68% 120%, rgba(180,83,9,.3), transparent 58%);
+}
+.hero:after{
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background-image:var(--grain-light),var(--dots-soft),
+    linear-gradient(90deg,rgba(255,255,255,.06) 1px,transparent 1px),
+    linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px);
+  background-size:180px 180px,26px 26px,96px 96px,96px 96px;opacity:.75;
+}
+.hero-grid{
+  position:relative;z-index:3;display:grid;grid-template-columns:1.2fr .9fr;gap:56px;align-items:center;padding:0;
+}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:10px;padding:10px 20px;border-radius:999px;font-size:11px;font-weight:800;
+  letter-spacing:.18em;text-transform:uppercase;color:#93d5c5;background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.22);box-shadow:0 8px 20px -10px rgba(0,0,0,.4);
+}
+.hero-badge i{width:8px;height:8px;border-radius:50%;background:#2dd4bf;box-shadow:0 0 0 5px rgba(45,212,191,.25)}
+.hero h1{
+  font-size:clamp(46px,7vw,80px);letter-spacing:-.045em;color:#fff;margin:24px 0 16px;font-weight:850;
+  line-height:1.05;
+}
+.hero-role{
+  font-size:20px;font-weight:600;color:#b9d4ff;margin:0 0 18px;
+}
+.hero-blurb{
+  margin-top:0;max-width:58ch;color:#cfe3ff;font-size:17px;line-height:1.7;margin-bottom:32px;
+}
+.hero-cta{
+  display:flex;flex-wrap:wrap;gap:14px;
+}
+.stats{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;margin-top:44px;padding-top:28px;
+  border-top:1px solid rgba(255,255,255,.18);
+}
+.stat b{display:block;font-size:34px;line-height:1;letter-spacing:-.03em}
+.stat span{display:block;margin-top:8px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#c3d2ee;font-weight:700}
+.stat:nth-child(1) b{color:#93c5fd}.stat:nth-child(2) b{color:#5eead4}
+.stat:nth-child(3) b{color:#fcd34d}.stat:nth-child(4) b{color:#fda4af}
+.stat:nth-child(1) span{color:#b8cdf5}.stat:nth-child(2) span{color:#8fe0d2}
+.stat:nth-child(3) span{color:#f4d78a}.stat:nth-child(4) span{color:#f7b3bf}
+.hero-photo{position:relative;display:flex;justify-content:center}
+.photo-ring{
+  padding:6px;border-radius:40px;
+  background:linear-gradient(135deg,#60a5fa,#2dd4bf 42%,#fbbf24 78%,#f472b6 100%);
+  box-shadow:0 30px 60px -20px rgba(0,0,0,.55);
+}
+.photo-ring img{
+  width:100%;max-width:360px;aspect-ratio:1/1;object-fit:cover;border-radius:34px;display:block;background:#0d2447;
+  border:1px solid rgba(255,255,255,.25);
+}
+.photo-btn{
+  position:absolute;top:16px;right:16px;display:inline-flex;align-items:center;gap:8px;
+  padding:10px 16px;border-radius:999px;background:rgba(255,255,255,.94);border:1px solid rgba(255,255,255,.75);
+  color:#123063;font:inherit;font-size:13px;font-weight:600;cursor:pointer;
+  box-shadow:0 10px 24px -14px rgba(0,0,0,.5);transition:all .25s;
+}
+.photo-btn:hover{background:#fff;transform:translateY(-2px);box-shadow:0 16px 32px -16px rgba(0,0,0,.6)}
+.photo-chip{
+  position:absolute;left:-10px;bottom:-16px;background:#fff;border:1px solid var(--line);border-radius:20px;
+  padding:12px 18px;box-shadow:var(--shadow-md);color:var(--ink);font-size:13px;
+  display:flex;align-items:center;gap:9px;animation:floatUp 4s ease-in-out infinite;
+}
+.photo-chip svg{width:16px;height:16px;color:#0f766e}
+.photo-chip b{font-weight:700}
+@keyframes floatUp{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-8px)}
+}
+
+/* ============================= SECTIONS ============================= */
+.section{
+  padding:80px 0;background:#fff;position:relative;overflow:hidden;
+  --tex:var(--tex-dots);--tex-size:26px 26px;--tex-opacity:.12;
+}
+section[id]{scroll-margin-top:90px}
+.section{--accent-ink:#14337a}
+@supports (color:color-mix(in srgb,red,blue)){
+  .section{--accent-ink:color-mix(in srgb,var(--accent,#1d4ed8) 62%,#0a1730)}
+}
+.section>.wrap:before{
+  content:"";position:absolute;z-index:-1;pointer-events:none;
+  inset:-64px -120px -70px -120px;
+  background:radial-gradient(118% 104% at 50% 40%,rgba(255,255,255,.98) 0%,rgba(255,255,255,.94) 48%,rgba(255,255,255,.66) 72%,rgba(255,255,255,0) 100%)
+}
+.section{
+  background-image:
+    linear-gradient(90deg,color-mix(in srgb,var(--accent,#1d4ed8) 55%,#fff),color-mix(in srgb,var(--accent,#1d4ed8) 12%,#fff) 32%,rgba(255,255,255,0) 66%),
+    linear-gradient(180deg,color-mix(in srgb,var(--accent,#1d4ed8) 6%,#fff) 0%,#fff 58%);
+  background-size:100% 3px,100% 100%;background-repeat:no-repeat,no-repeat
+}
+.section:before{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background-color:var(--accent,#1d4ed8);
+  background-image:linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.5) 38%,rgba(255,255,255,.9) 72%,rgba(255,255,255,.97) 100%);
+  -webkit-mask-image:var(--tex);mask-image:var(--tex);
+  -webkit-mask-repeat:repeat;mask-repeat:repeat;
+  -webkit-mask-size:var(--tex-size);mask-size:var(--tex-size);
+  opacity:var(--tex-opacity)
+}
+.section:after{
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background-image:var(--grain-dark);opacity:.38
+}
+.user-bg{
+  position:absolute;inset:0;z-index:0;pointer-events:none;
+  background-size:cover;background-position:center;background-repeat:no-repeat;
+  opacity:1;
+}
+.user-bg:after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(0,0,0,.42),rgba(0,0,0,.22));
+}
+.section>.wrap{position:relative;z-index:2}
+.section[data-tex="grid"]{--tex:var(--tex-grid);--tex-size:104px 104px;--tex-opacity:.11}
+.section[data-tex="cross"]{--tex:var(--tex-cross);--tex-size:30px 30px;--tex-opacity:.11}
+.section[data-tex="diamond"]{--tex:var(--tex-diamond);--tex-size:30px 30px;--tex-opacity:.10}
+.section[data-tex="diag"]{--tex:var(--tex-diag);--tex-size:12px 12px;--tex-opacity:.065}
+.section[data-tex="rules"]{--tex:var(--tex-rules);--tex-size:34px 34px;--tex-opacity:.055}
+.section[data-tex="hatch"]{--tex:var(--tex-hatch);--tex-size:22px 22px;--tex-opacity:.05}
+.section[data-tex="weave"]{--tex:var(--tex-weave);--tex-size:20px 20px;--tex-opacity:.085}
+.section[data-tex="none"]:before{display:none}
+.wm{
+  position:absolute;top:14px;right:40px;z-index:3;pointer-events:none;user-select:none;
+  font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-size:clamp(90px,10vw,190px);
+  line-height:1;letter-spacing:-.06em;color:var(--accent,#1d4ed8);opacity:.055
+}
+.sec-head{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:40px;
+}
+.badge{
+  display:inline-flex;align-items:center;gap:8px;padding:8px 18px;border-radius:999px;font-size:10.5px;font-weight:800;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--accent-ink,#14337a);
+  background:color-mix(in srgb,var(--accent,#1d4ed8) 10%,#fff);border:1px solid color-mix(in srgb,var(--accent,#1d4ed8) 26%,#fff);
+}
+.sec-head h2{
+  font-size:clamp(32px,4.2vw,46px);margin-top:16px;letter-spacing:-.04em;max-width:28ch;
+}
+.sec-head p.lead{
+  margin-top:12px;color:var(--muted);max-width:62ch;font-size:16px;line-height:1.7;
+}
+.rule{
+  width:80px;height:6px;border-radius:999px;margin-top:18px;
+  background:linear-gradient(90deg,var(--accent,#1d4ed8),color-mix(in srgb,var(--accent,#1d4ed8) 40%,#fff));
+}
+:root{--accent:#1d4ed8}
+
+/* =============================== CARDS =============================== */
+.card{
+  background-color:#fff;background-image:var(--grain-dark);
+  border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);
+  transition:all .35s cubic-bezier(.23,1,.32,1);
+}
+.card:hover{
+  transform:translateY(-5px);box-shadow:var(--shadow-lg);
+  border-color:color-mix(in srgb,var(--accent,#1d4ed8) 35%,#fff);
+}
+.stack{display:flex;flex-direction:column;gap:22px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+/* ---------- About ---------- */
+.about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:start}
+.about-copy p+p{margin-top:20px}
+.about-copy p{color:#2e3a59;font-size:16.5px;line-height:1.85}
+.about-side{
+  background-color:#fff;background-image:var(--grain-dark);
+  border:1px solid var(--line);border-left:5px solid var(--accent,#1d4ed8);
+  border-radius:22px;padding:26px;box-shadow:var(--shadow-sm)
+}
+.about-side dt{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:800}
+.about-side dd{margin:6px 0 20px;font-size:15px;font-weight:600;color:var(--ink)}
+.about-side a{color:#16408f!important}
+.about-side dd:last-child{margin-bottom:0}
+
+/* ---------- Experience timeline ---------- */
+.exp{display:flex;gap:24px}
+.exp-dot{flex:none;width:15px;height:15px;border-radius:50%;margin-top:8px;background:var(--accent,#0f766e);
+  box-shadow:0 0 0 6px color-mix(in srgb,var(--accent,#0f766e) 14%,#fff)}
+.timeline{position:relative;padding-left:8px}
+.timeline:before{
+  content:"";position:absolute;left:13px;top:18px;bottom:18px;width:3px;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--accent,#0f766e) 55%,#fff),transparent)
+}
+.exp-card{flex:1;padding:26px 28px;border-left:5px solid var(--accent,#0f766e)}
+.exp-top{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap}
+.exp-role{font-size:19px;font-weight:700;color:var(--ink)}
+.exp-org{font-size:14px;font-weight:600;color:var(--accent-ink,#0d4f4a);margin-top:4px}
+.chip{
+  display:inline-flex;align-items:center;gap:6px;padding:7px 15px;border-radius:999px;font-size:11.5px;font-weight:600;
+  color:#39435f;background:#f4f6fc;border:1px solid #e4eaf5;white-space:nowrap
+}
+.exp-desc{margin-top:14px;color:#3a465e;font-size:15px;line-height:1.7}
+
+/* ---------- Research ---------- */
+.pub{padding:26px;display:flex;flex-direction:column;gap:14px;border-top:4px solid var(--accent,#1d4ed8)}
+.pub h3{font-size:17px;line-height:1.45}
+.pub-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.tag{
+  font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:6px 14px;border-radius:999px;
+  color:var(--accent-ink,#14337a);background:color-mix(in srgb,var(--accent,#1d4ed8) 10%,#fff);
+  border:1px solid color-mix(in srgb,var(--accent,#1d4ed8) 24%,#fff)
+}
+.pub-venue{font-size:14.5px;color:var(--muted)}
+.pub a.doi{
+  font-size:13px;font-weight:600;color:#16408f;text-decoration:none;display:inline-flex;align-items:center;gap:7px
+}
+.pub a.doi:hover{text-decoration:underline;color:var(--blue)}
+.pub-foot{margin-top:auto;padding-top:8px}
+
+/* ---------- Skills ---------- */
+.skill-card{padding:28px}
+.skill-head{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.icon-tile{
+  width:46px;height:46px;border-radius:16px;display:grid;place-items:center;flex:none;
+  background:color-mix(in srgb,var(--accent,#1d4ed8) 12%,#fff);color:var(--accent,#1d4ed8);
+  border:1px solid color-mix(in srgb,var(--accent,#1d4ed8) 24%,#fff);box-shadow:0 6px 16px -10px color-mix(in srgb,var(--accent,#1d4ed8) 35%,#000)
+}
+.icon-tile svg{width:20px;height:20px}
+.skill-head h3{font-size:17px}
+.pills{display:flex;flex-wrap:wrap;gap:10px}
+.pill{
+  padding:8px 16px;border-radius:999px;font-size:12.8px;font-weight:600;color:#38435f;
+  background:#f7f9fe;border:1px solid #e5ebf6;transition:all .25s;
+}
+.pill:hover{
+  background:var(--accent,#1d4ed8);color:#fff;border-color:var(--accent,#1d4ed8);
+  transform:translateY(-2px);box-shadow:0 8px 18px -10px color-mix(in srgb,var(--accent,#1d4ed8) 40%,#000)
+}
+
+/* ---------- Awards / Certificates ---------- */
+.award{padding:26px;border-top:4px solid var(--accent,#b45309)}
+.award-icon{
+  width:44px;height:44px;border-radius:14px;display:grid;place-items:center;margin-bottom:16px;
+  background:color-mix(in srgb,var(--accent,#b45309) 14%,#fff);color:var(--accent,#b45309);
+  border:1px solid color-mix(in srgb,var(--accent,#b45309) 24%,#fff);
+  box-shadow:0 8px 18px -10px color-mix(in srgb,var(--accent,#b45309) 35%,#000)
+}
+.award-icon svg{width:20px;height:20px}
+.award h3{font-size:16.5px;line-height:1.45}
+.award .yr{margin-top:10px;font-size:12.5px;font-weight:800;color:var(--accent-ink,#6b3a09);letter-spacing:.05em}
+.award p{margin-top:10px;font-size:14.5px;color:var(--muted);line-height:1.6}
+.cert{
+  display:flex;gap:18px;padding:26px;border-left:5px solid var(--accent,#047857);align-items:flex-start
+}
+.cert h3{font-size:16px;line-height:1.45}
+.cert .org{margin-top:6px;font-size:13.8px;font-weight:600;color:var(--accent-ink,#0a4a3c)}
+.cert .foot{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:18px
+}
+
+/* ---------- Blog ---------- */
+.blog-card{overflow:hidden;display:flex;flex-direction:column;height:100%}
+.blog-media{
+  position:relative;aspect-ratio:16/10;overflow:hidden;background:#0d2447
+}
+.blog-media img{
+  width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.2,.7,.3,1)
+}
+.blog-card:hover .blog-media img{transform:scale(1.07)}
+.blog-media .play{
+  position:absolute;inset:0;display:grid;place-items:center;
+  background:linear-gradient(180deg,rgba(8,20,42,.2),rgba(8,20,42,.65))
+}
+.blog-media .play span{
+  width:60px;height:60px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(255,255,255,.94);color:#123063;box-shadow:0 10px 24px -12px rgba(0,0,0,.35)
+}
+.blog-media .play svg{width:24px;height:24px}
+.date-chip{
+  position:absolute;top:14px;right:14px;padding:7px 16px;border-radius:999px;font-size:11px;font-weight:800;
+  background:rgba(255,255,255,.96);color:#123063;box-shadow:0 8px 18px -10px rgba(0,0,0,.5)
+}
+.blog-body{
+  padding:26px 26px 22px;display:flex;flex-direction:column;flex:1
+}
+.blog-body h3{font-size:21px;line-height:1.35;color:var(--ink)}
+.clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.clamp-title{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.blog-body p{margin-top:12px;font-size:14.8px;color:var(--muted);flex:1;line-height:1.7}
+.clamp-3{flex:1}
+.blog-foot{
+  display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:20px;padding-top:18px;border-top:1px solid #eef1f8
+}
+.read-more{
+  font-size:13.6px;font-weight:700;color:#16408f;display:inline-flex;align-items:center;gap:7px;
+  background:none;border:none;padding:0;cursor:pointer;font-family:inherit;transition:.2s
+}
+.read-more:hover{color:var(--blue);text-decoration:underline;gap:11px}
+.post-content{font-size:16px;line-height:1.9;color:#2b3752}
+.post-content p{margin-top:18px}
+
+/* ---------- Contact ---------- */
+.contact{
+  position:relative;overflow:hidden;color:#d9e7ff;padding:82px 0;
+  background:
+    radial-gradient(900px 440px at 12% 0%, rgba(37,99,235,.4), transparent 62%),
+    radial-gradient(840px 440px at 88% 12%, rgba(13,148,136,.36), transparent 60%),
+    linear-gradient(160deg,#0a172d 0%,#0d2546 55%,#0a1f37 100%)
+}
+.contact:before{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background-image:var(--grain-light),var(--dots-soft);
+  background-size:180px 180px,26px 26px;opacity:.85;
+  -webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.95) 0%,rgba(0,0,0,.4) 72%,rgba(0,0,0,.15) 100%);
+  mask-image:linear-gradient(180deg,rgba(0,0,0,.95) 0%,rgba(0,0,0,.4) 72%,rgba(0,0,0,.15) 100%)
+}
+.contact{--accent-ink:#bae6fd}
+.contact>.wrap{position:relative;z-index:2}
+.contact h2{
+  color:#fff;font-size:clamp(34px,4.6vw,50px);letter-spacing:-.04em
+}
+.contact .lead{
+  margin-top:16px;color:#d6e2f7;max-width:56ch;font-size:17px;line-height:1.75
+}
+.contact-cards{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:42px
+}
+.contact-card{
+  display:block;padding:28px 22px;border-radius:var(--radius);text-align:center;text-decoration:none;
+  background-color:rgba(255,255,255,.08);background-image:var(--grain-light);
+  border:1px solid rgba(255,255,255,.2);transition:all .35s cubic-bezier(.23,1,.32,1)
+}
+.contact-card:hover{
+  background:rgba(255,255,255,.16);transform:translateY(-6px) scale(1.02);
+  border-color:rgba(255,255,255,.4);box-shadow:0 20px 40px -20px rgba(0,0,0,.45)
+}
+.contact-card .icon-tile{
+  margin:0 auto 16px;width:50px;height:50px;border-radius:17px;background:rgba(255,255,255,.16);
+  border:1px solid rgba(255,255,255,.28);color:#fff
+}
+.contact-card .icon-tile svg{width:22px;height:22px}
+.contact-card b{display:block;font-size:15.5px;color:#fff}
+.contact-card span{
+  display:block;margin-top:6px;font-size:13px;color:#c9d8f2;word-break:break-word;line-height:1.5
+}
+.contact-form{
+  margin-top:38px;display:grid;gap:14px;max-width:700px
+}
+.contact-form .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.contact .input{
+  background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.24);color:#fff
+}
+.contact .input::placeholder{color:#9db0d8}
+.contact .input:focus{
+  outline:none;border-color:#7dd3fc;box-shadow:0 0 0 4px rgba(125,211,252,.2);color:#fff
+}
+.form-note{font-size:12.8px;color:#b8cdea;line-height:1.55}
+
+/* =============================== FOOTER =============================== */
+footer{
+  background-color:#071226;background-image:var(--dots-soft),var(--grain-light);
+  background-size:26px 26px,170px 170px;color:#b7c6e4;border-top:1px solid rgba(255,255,255,.1)
+}
+.foot-inner{
+  display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;padding:30px 0;font-size:13.6px
+}
+.foot-links{display:flex;gap:22px;align-items:center}
+.foot-links a{color:#a6bade;text-decoration:none}
+.foot-links a:hover{color:#fff}
+.foot-links button{background:none;border:none;color:#a6bade;font:inherit;font-size:13.6px;cursor:pointer;padding:0}
+.foot-links button:hover{color:#fff;text-decoration:underline}
+
+/* =============================== MODALS =============================== */
+.modal{
+  position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;padding:24px;
+  background:rgba(6,15,33,.55);backdrop-filter:blur(6px)
+}
+.modal.open{display:flex;animation:fadeIn .22s ease}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.modal-card{
+  background-color:#fff;background-image:var(--grain-dark);
+  border-radius:30px;width:100%;max-width:600px;max-height:90vh;display:flex;flex-direction:column;
+  box-shadow:0 50px 100px -36px rgba(4,12,30,.7);overflow:hidden
+}
+.modal-card.lg{max-width:820px}
+.modal-head{
+  display:flex;align-items:center;justify-content:space-between;gap:14px;padding:24px 30px;border-bottom:1px solid #eef1f8;flex:none
+}
+.modal-head h3{font-size:19px}
+.x-btn{
+  width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--muted);
+  cursor:pointer;display:grid;place-items:center;transition:.2s
+}
+.x-btn:hover{background:#f6f8fd;color:var(--ink);transform:rotate(-90deg)}
+.x-btn svg{width:18px;height:18px}
+.modal-body{padding:28px 30px;overflow:auto}
+.modal-foot{
+  display:flex;gap:14px;padding:20px 30px 24px;border-top:1px solid #eef1f8;flex:none;flex-wrap:wrap
+}
+.modal-foot .btn{flex:1}
+.field{margin-bottom:18px}
+.field label{
+  display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+  color:#6b779a;margin-bottom:8px
+}
+.input{
+  width:100%;padding:13px 16px;border:1px solid #dde3f0;border-radius:16px;font:inherit;font-size:14px;
+  color:var(--ink);background:#fff;transition:all .2s
+}
+.input:focus{outline:none;border-color:#2563eb;box-shadow:0 0 0 4px rgba(37,99,235,.12)}
+textarea.input{resize:vertical;line-height:1.65}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.hint{font-size:12.4px;color:#8390af;margin-top:7px}
+.file-input{font-size:13px;color:var(--muted)}
+.modal .preview{
+  width:84px;height:84px;border-radius:20px;object-fit:cover;border:1px solid var(--line);background:#f4f6fc
+}
+.split{display:flex;gap:18px;align-items:center}
+.group-box{
+  border:1px solid var(--line);border-radius:20px;padding:22px;margin-bottom:16px;background:#fbfcff
+}
+
+/* =============================== TOAST =============================== */
+.toast{
+  position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(16px);z-index:300;
+  display:flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;font-size:13.8px;font-weight:500;
+  background:#0c1d3c;color:#eaf1ff;box-shadow:0 26px 44px -20px rgba(0,0,0,.65);opacity:0;transition:.35s;pointer-events:none
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+.toast svg{width:17px;height:17px;color:#5eead4}
+body.no-scroll{overflow:hidden}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hide-sm{display:inline}
+@media (max-width:680px){ .hide-sm{display:none} }
+
+/* ============================= RESPONSIVE ============================= */
+@media (max-width:1080px){
+  .contact-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hero-grid{grid-template-columns:1fr;gap:48px;padding-top:60px}
+}
+@media (max-width:920px){
+  .nav-links{display:none}
+  .burger{display:grid}
+  .hero-photo{order:-1}
+  .about-grid{grid-template-columns:1fr}
+  .grid-3{grid-template-columns:repeat(2,1fr)}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+  .stat b{font-size:29px}
+  .brand-text small{display:none}
+  .hero-grid{padding-top:50px}
+}
+@media (max-width:680px){
+  body{font-size:15.5px}
+  .wrap{padding:0 18px}
+  .section{padding:56px 0}
+  .grid-2,.grid-3,.contact-cards,.contact-form .two,.two-col{grid-template-columns:1fr}
+  .contact-card{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+  .brand-text small{display:none}
+  .modal{padding:12px}
+  .modal-card{max-height:94vh}
+  .timeline:before{display:none}
+  .hero-badge{font-size:10px;padding:8px 16px}
+  .hero h1{font-size:clamp(40px,10vw,60px)}
+  .photo-ring{max-width:280px}
+  .photo-chip{font-size:12px;padding:10px 14px}
+}
+@media (max-height:800px){
+  .modal-card{max-height:95vh}
+  .modal-body{padding:20px 24px}
+  .modal .preview{width:70px;height:70px}
+}
+@media (max-width:1100px){ .wm{display:none} }
+@media print{
+  .no-print,.modal,.nav-mobile,.burger,.wm{display:none!important}
+  .section:before,.section:after,.hero:after,.contact:before,.section>.wrap:before{display:none!important}
+  footer{background-image:none!important}
+  .card,.about-side,.modal-card{background-image:none!important}
+  .section{padding:24px 0;background:#fff!important}
+  body{background:#fff}
+}
+
+/* =============================== ICONS DATA =============================== */
+/* Icons are injected via JS in SVG constant — see script section */
+</style>
+</head>
+<body>
+
+<div class="topline"></div>
+
+<!-- ================================ NAV ================================ -->
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <span class="logo-tile">PD</span>
+      <span class="brand-text">
+        <b>Pusan Dhar</b>
+        <small>Materials Engineer &amp; Researcher</small>
+      </span>
+    </a>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#research">Research</a>
+      <a href="#skills">Skills</a>
+      <a href="#awards">Awards</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="nav-actions">
+      <a class="btn btn-primary btn-sm no-print" href="Pusan_Dhar_Resume.pdf" download onclick="resumeClick()" data-icon="download"><span><span class="hide-sm">Download </span>Resume</span></a>
+      <button class="burger no-print" onclick="toggleMenu()" aria-label="Open menu" data-icon="menu"></button>
+    </div>
+  </div>
+
+  <div class="nav-mobile" id="mobileMenu">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#experience" onclick="toggleMenu()">Experience</a>
+    <a href="#research" onclick="toggleMenu()">Research</a>
+    <a href="#skills" onclick="toggleMenu()">Skills</a>
+    <a href="#awards" onclick="toggleMenu()">Awards</a>
+    <a href="#certificates" onclick="toggleMenu()">Certificates</a>
+    <a href="#blog" onclick="toggleMenu()">Blog</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+    <a href="Pusan_Dhar_Resume.pdf" download onclick="toggleMenu()">Download Resume</a>
+  </div>
+</nav>
+
+<!-- ================================ HERO =============================== -->
+<header class="hero" id="top">
+  <div class="user-bg" id="user-bg-hero"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="hero-badge"><i></i> Materials Engineer &amp; Researcher</span>
+      <h1 id="hero-name">Pusan Dhar</h1>
+      <p class="hero-role" id="hero-role">Composites · Thermographic NDT · AI-driven materials characterization</p>
+      <p class="hero-blurb" id="hero-blurb"></p>
+
+      <div class="hero-cta">
+        <a class="btn btn-light" href="#research">View Research</a>
+        <a class="btn btn-ghost-dark" href="#contact">Let's connect</a>
+        <button class="btn btn-ghost-dark no-print" onclick="openProfileModal()" data-icon="edit">Edit Profile</button>
+        <button class="btn btn-ghost-dark no-print" onclick="openSectionBgModal('hero')" data-icon="edit">Background</button>
+      </div>
+
+      <div class="stats" id="hero-stats"></div>
+    </div>
+
+    <div class="hero-photo">
+      <div class="photo-ring">
+        <img id="profile-photo" alt="Pusan Dhar — portrait" onerror="photoFallback(this)">
+      </div>
+      <button class="photo-btn no-print" onclick="openProfileModal(true)" data-icon="camera">Change Photo</button>
+      <div class="photo-chip"><span id="pin-icon"></span> Based in <b id="hero-location">Greensboro, NC</b></div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- =============================== ABOUT =============================== -->
+<section class="section" id="about" style="--accent:#1d4ed8" data-tex="dots">
+  <span class="wm" aria-hidden="true">01</span>
+  <div class="user-bg" id="user-bg-about"></div>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="badge">About Me</span>
+        <h2 id="about-heading">Engineer &amp; researcher focused on advanced materials.</h2>
+        <div class="rule"></div>
+      </div>
+      <button class="btn btn-outline btn-sm no-print" onclick="openAboutModal()" data-icon="edit">Edit About Section</button>
+      <button class="btn btn-outline btn-sm no-print" onclick="openSectionBgModal('about')" data-icon="edit" style="background:#f4f6fc;border-color:#e2e7f0;color:var(--muted)">Background</button>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-copy" id="about-copy"></div>
+      <div class="about-side">
+        <dl>
+          <dt>Based in</dt>
+          <dd id="about-location">Greensboro, North Carolina</dd>
+          <dt>Current focus</dt>
+          <dd id="about-focus">Graduate research, NC A&amp;T State University</dd>
+          <dt>Availability</dt>
+          <dd id="about-status">Open to research collaborations</dd>
+          <dt>Contact</dt>
+          <dd><a id="about-email-link" href="/cdn-cgi/l/email-protection#28585d5b4946064c40495a684d45494144064b4745" style="color:#16408f"><span class="__cf_email__" data-cfemail="16666365777838727e776456737b777f7a3875797b">[email&#160;protected]</span></a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= EXPERIENCE ============================= -->
+<section class="section" id="experience" style="--accent:#0f766e" data-tex="grid">
+  <span class="wm" aria-hidden="true">02</span>
+  <div class="user-bg" id="user-bg-experience"></div>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="badge">Professional Journey</span>
+        <h2>Experience</h2>
+        <div class="rule"></div>
+        <p class="lead">Nine years in heavy-industry production leadership, followed by graduate research and teaching in materials engineering.</p>
+      </div>
+      <button class="btn btn-outline btn-sm no-print" onclick="openExperienceModal()" data-icon="plus">Add Experience</button>
+      <button class="btn btn-outline btn-sm no-print" onclick="openSectionBgModal('experience')" data-icon="edit" style="background:#f4f6fc;border-color:#e2e7f0;color:var(--muted)">Background</button>
+    </div>
+    <div class="stack timeline" id="experience-list"></div>
+  </div>
+</section>
+
+<!-- ============================== RESEARCH ============================== -->
+<section class="section" id="research" style="--accent:#1d4ed8" data-tex="cross">
+  <span class="wm" aria-hidden="true">03</span>
+  <div class="user-bg" id="user-bg-research"></div>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="badge">Research Output</span>
+        <h2>Publications &amp; Conferences</h2>
+        <div class="rule"></div>
+        <p class="lead">Peer-reviewed journal articles, conference presentations and posters in composite materials and nondestructive evaluation.</p>
+      </div>
+      <button class="btn btn-outline btn-sm no-print" onclick="openResearchModal()" data-icon="plus">Add Publication</button>
+      <button class="btn btn-outline btn-sm no-print" onclick="openSectionBgModal('research')" data-icon="edit" style="background:#f4f6fc;border-color:#e2e7f0;color:var(--muted)">Background</button>
+    </div>
+    <div class="grid-2" id="research-list"></div>
+  </div>
+</section>
+
+<!-- =============================== SKILLS ============================== -->
+<section class="section" id="skills" style="--accent:#5b21b6" data-tex="diamond">
+  <span class="wm" aria-hidden="true">04</span>
+  <div class="user-bg" id="user-bg-skills"></div>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="badge">Expertise</span>
+        <h2>Technical Skills</h2>
+        <div class="rule"></div>
+      </div>
+      <button class="btn btn-outline btn-sm no-print" onclick="openSkillsModal()" data-icon="edit">Edit Skills</button>
+      <button class="btn btn-outline btn-sm no-print" onclick="openSectionBgModal('skills')" data-icon="edit" style="background:#f4f6fc;border-color:#e2e7f0;color:var(--muted)">Background</button>
+    </div>
+    <div class="grid-3" id="skills-list"></div>
+  </div>
+</section>
+
+<!-- =============================== AWARDS ============================== -->
+<section class="section" id="awards" style="--accent:#b45309" data-tex="diag">
+  <span class="wm" aria-hidden="true">05</span>
+  <div class="user-bg" id="user-bg-awards"></div>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="badge">Recognition</span>
+        <h2>Awards &amp; Honors</h2>
+        <div class="rule"></div>
+      </div>
+      <button class="btn btn-outline btn-sm no-print" onclick="openAwardModal()" data-icon="plus">Add Award</button>
+      <button class="btn btn-outline btn-sm no-print" onclick="openSectionBgModal('awards')" data-icon="edit" style="background:#f4f6fc;border-color:#e2e7f0;color:var(--muted)">Background</button>
+    </div>
+    <div class="grid-3" id="awards-list"></div>
+  </div>
+</section>
+
+<!-- ============================ CERTIFICATES =========================== -->
+<section class="section" id="certificates" style="--accent:#047857" data-tex="weave">
+  <span class="wm" aria-hidden="true">06</span>
+  <div class="user-bg" id="user-bg-certificates"></div>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="badge">Credentials</span>
+        <h2>Certificates &amp; Training</h2>
+        <div class="rule"></div>
+      </div>
+      <button class="btn btn-outline btn-sm no-print" onclick="openCertificateModal()" data-icon="plus">Add Certificate</button>
+      <button class="btn btn-outline btn-sm no-print" onclick="openSectionBgModal('certificates')" data-icon="edit" style="background:#f4f6fc;border-color:#e2e7f0;color:var(--muted)">Background</button>
+    </div>
+    <div class="grid-3" id="certificates-list"></div>
+  </div>
+</section>
+
+<!-- ================================ BLOG =============================== -->
+<section class="section" id="blog" style="--accent:#9f1239" data-tex="hatch">
+  <span class="wm" aria-hidden="true">07</span>
+  <div class="user-bg" id="user-bg-blog"></div>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="badge">Thoughts &amp; Insights</span>
+        <h2>Blog</h2>
+        <div class="rule"></div>
+        <p class="lead">Research notes, conference reflections and lessons from industry. Posts support images and video.</p>
+      </div>
+      <button class="btn btn-outline btn-sm no-print" onclick="openPostModal()" data-icon="plus">Add Blog Post</button>
+      <button class="btn btn-outline btn-sm no-print" onclick="openSectionBgModal('blog')" data-icon="edit" style="background:#f4f6fc;border-color:#e2e7f0;color:var(--muted)">Background</button>
+    </div>
+    <div class="grid-3" id="blog-list"></div>
+  </div>
+</section>
+
+<!-- ============================== CONTACT ============================== -->
+<section class="contact" id="contact">
+  <div class="user-bg" id="user-bg-contact"></div>
+  <div class="wrap">
+    <span class="badge" style="--accent:#7dd3fc;color:#bae6fd;background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.22)">Next Step</span>
+    <h2 style="margin-top:16px">Let's collaborate.</h2>
+    <p class="lead">I'm open to research collaborations, industry partnerships, postdoctoral opportunities and speaking invitations.</p>
+
+    <div class="contact-cards">
+      <a class="contact-card" id="card-email" href="/cdn-cgi/l/email-protection#a9d9dcdac8c787cdc1c8dbe9ccc4c8c0c587cac6c4">
+        <span class="icon-tile" data-icon="mail"></span>
+        <b>Email</b>
+        <span id="contact-email-text"><span class="__cf_email__" data-cfemail="55252026343b7b313d3427153038343c397b363a38">[email&#160;protected]</span></span>
+      </a>
+      <a class="contact-card" id="card-linkedin" href="https://linkedin.com/in/pusandhar" target="_blank" rel="noopener">
+        <span class="icon-tile" data-icon="linkedin"></span>
+        <b>LinkedIn</b>
+        <span id="contact-linkedin-text">linkedin.com/in/pusandhar</span>
+      </a>
+      <a class="contact-card" id="card-scholar" href="https://scholar.google.com/" target="_blank" rel="noopener">
+        <span class="icon-tile" data-icon="scholar"></span>
+        <b>Google Scholar</b>
+        <span id="contact-scholar-text">View research profile</span>
+      </a>
+    </div>
+
+    <div class="row-actions" style="margin-top:26px">
+      <button class="btn btn-ghost-dark btn-sm no-print" onclick="openContactModal()" data-icon="edit">Edit Contact Links</button>
+      <button class="btn btn-ghost-dark btn-sm no-print" onclick="openSectionBgModal('contact')" data-icon="edit" style="background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.28);color:#eaf1ff">Background</button>
+    </div>
+
+    <form class="contact-form" onsubmit="submitContactForm(event)">
+      <div class="two">
+        <input class="input" id="cf-name" type="text" placeholder="Your name" required>
+        <input class="input" id="cf-email" type="email" placeholder="Your email" required>
+      </div>
+      <textarea class="input" id="cf-message" rows="4" placeholder="Write a message..." required></textarea>
+      <button class="btn btn-light" type="submit" data-icon="send">Send Message</button>
+      <p class="form-note">This form opens a pre-filled email to <span id="form-note-email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="02727771636c2c666a637042676f636b6e2c616d6f">[email&#160;protected]</a></span> — no account or server required.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================== FOOTER =============================== -->
+<footer>
+  <div class="wrap foot-inner">
+    <div>© <span id="year"></span> Pusan Dhar. All rights reserved.</div>
+    <div class="foot-links">
+      <span>In-browser edits are saved on this device</span>
+      <button class="no-print" onclick="resetContent()">Reset content</button>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<!-- =============================== MODALS =============================== -->
+
+<!-- Profile -->
+<div class="modal" id="m-profile">
+  <div class="modal-card lg">
+    <div class="modal-head"><h3>Edit Profile</h3><button class="x-btn" onclick="closeModal('m-profile')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <div class="field">
+        <label>Profile photo</label>
+        <div class="split">
+          <img class="preview" id="pf-preview" alt="Preview" onerror="photoFallback(this)">
+          <div style="flex:1">
+            <input class="input" id="pf-photo" type="text" placeholder="Paste an image URL (https://...)">
+            <input class="file-input" style="margin-top:9px" type="file" accept="image/*" onchange="loadPhotoFile(this)">
+            <div class="hint">Paste a link, or choose a file from your computer.</div>
+          </div>
+        </div>
+      </div>
+      <div class="two-col">
+        <div class="field"><label>Name</label><input class="input" id="pf-name" type="text"></div>
+        <div class="field"><label>Location</label><input class="input" id="pf-location" type="text"></div>
+      </div>
+      <div class="field"><label>Role / tagline</label><input class="input" id="pf-role" type="text"></div>
+      <div class="field"><label>Short introduction (hero)</label><textarea class="input" id="pf-blurb" rows="3"></textarea></div>
+      <div class="group-box">
+        <label style="display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#6b779a;margin-bottom:10px">Hero statistics</label>
+        <div class="two-col">
+          <div class="field"><label>Stat 1 value</label><input class="input" id="pf-s1v" type="text"></div>
+          <div class="field"><label>Stat 1 label</label><input class="input" id="pf-s1l" type="text"></div>
+          <div class="field"><label>Stat 2 value</label><input class="input" id="pf-s2v" type="text"></div>
+          <div class="field"><label>Stat 2 label</label><input class="input" id="pf-s2l" type="text"></div>
+          <div class="field"><label>Stat 3 value</label><input class="input" id="pf-s3v" type="text"></div>
+          <div class="field"><label>Stat 3 label</label><input class="input" id="pf-s3l" type="text"></div>
+          <div class="field"><label>Stat 4 value</label><input class="input" id="pf-s4v" type="text"></div>
+          <div class="field"><label>Stat 4 label</label><input class="input" id="pf-s4l" type="text"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="saveProfile()">Save Changes</button>
+      <button class="btn btn-outline" onclick="closeModal('m-profile')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- About -->
+<div class="modal" id="m-about">
+  <div class="modal-card lg">
+    <div class="modal-head"><h3>Edit About Section</h3><button class="x-btn" onclick="closeModal('m-about')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <div class="field"><label>Heading</label><input class="input" id="ab-heading" type="text"></div>
+      <div class="field"><label>Paragraph 1</label><textarea class="input" id="ab-p1" rows="4"></textarea></div>
+      <div class="field"><label>Paragraph 2</label><textarea class="input" id="ab-p2" rows="4"></textarea></div>
+      <div class="two-col">
+        <div class="field"><label>Based in</label><input class="input" id="ab-location" type="text"></div>
+        <div class="field"><label>Current focus</label><input class="input" id="ab-focus" type="text"></div>
+        <div class="field"><label>Availability</label><input class="input" id="ab-status" type="text"></div>
+        <div class="field"><label>Email</label><input class="input" id="ab-email" type="email"></div>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="saveAbout()">Save Changes</button>
+      <button class="btn btn-outline" onclick="closeModal('m-about')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Experience -->
+<div class="modal" id="m-experience">
+  <div class="modal-card">
+    <div class="modal-head"><h3 id="ex-title">Add Experience</h3><button class="x-btn" onclick="closeModal('m-experience')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <input type="hidden" id="ex-id">
+      <div class="field"><label>Role / title</label><input class="input" id="ex-role" type="text" placeholder="Graduate Teaching Assistant"></div>
+      <div class="field"><label>Organisation</label><input class="input" id="ex-org" type="text" placeholder="NC A&T State University"></div>
+      <div class="two-col">
+        <div class="field"><label>Start</label><input class="input" id="ex-start" type="text" placeholder="Aug 2022"></div>
+        <div class="field"><label>End</label><input class="input" id="ex-end" type="text" placeholder="Jul 2024 / Present"></div>
+      </div>
+      <div class="field"><label>Description</label><textarea class="input" id="ex-desc" rows="4" placeholder="Key responsibilities and achievements..."></textarea></div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="saveExperience()">Save</button>
+      <button class="btn btn-outline" onclick="closeModal('m-experience')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Research -->
+<div class="modal" id="m-research">
+  <div class="modal-card">
+    <div class="modal-head"><h3 id="re-title">Add Publication</h3><button class="x-btn" onclick="closeModal('m-research')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <input type="hidden" id="re-id">
+      <div class="field"><label>Title</label><textarea class="input" id="re-name" rows="2" placeholder="Paper or presentation title"></textarea></div>
+      <div class="two-col">
+        <div class="field">
+          <label>Type</label>
+          <select class="input" id="re-type">
+            <option>Journal Publication</option>
+            <option>Conference Presentation</option>
+            <option>Poster</option>
+            <option>Patent</option>
+            <option>Book Chapter</option>
+          </select>
+        </div>
+        <div class="field"><label>Year</label><input class="input" id="re-year" type="text" placeholder="2026"></div>
+      </div>
+      <div class="field"><label>Venue / authors / details</label><input class="input" id="re-venue" type="text" placeholder="SAMPE Journal 62(2), 38 — Dhar, P. et al."></div>
+      <div class="field"><label>DOI / link (optional)</label><input class="input" id="re-link" type="text" placeholder="https://doi.org/..."></div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="saveResearch()">Save</button>
+      <button class="btn btn-outline" onclick="closeModal('m-research')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Skills -->
+<div class="modal" id="m-skills">
+  <div class="modal-card lg">
+    <div class="modal-head"><h3>Edit Skills</h3><button class="x-btn" onclick="closeModal('m-skills')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <div class="group-box">
+        <div class="field"><label>Group 1 title</label><input class="input" id="sk-t0" type="text"></div>
+        <div class="field"><label>Group 1 skills (separate with commas)</label><textarea class="input" id="sk-i0" rows="2"></textarea></div>
+      </div>
+      <div class="group-box">
+        <div class="field"><label>Group 2 title</label><input class="input" id="sk-t1" type="text"></div>
+        <div class="field"><label>Group 2 skills (separate with commas)</label><textarea class="input" id="sk-i1" rows="2"></textarea></div>
+      </div>
+      <div class="group-box">
+        <div class="field"><label>Group 3 title</label><input class="input" id="sk-t2" type="text"></div>
+        <div class="field"><label>Group 3 skills (separate with commas)</label><textarea class="input" id="sk-i2" rows="2"></textarea></div>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="saveSkills()">Save Changes</button>
+      <button class="btn btn-outline" onclick="closeModal('m-skills')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Award -->
+<div class="modal" id="m-award">
+  <div class="modal-card">
+    <div class="modal-head"><h3 id="aw-title">Add Award</h3><button class="x-btn" onclick="closeModal('m-award')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <input type="hidden" id="aw-id">
+      <div class="field"><label>Award title</label><input class="input" id="aw-name" type="text" placeholder="Outstanding Graduate Teaching Assistant Award"></div>
+      <div class="field"><label>Year</label><input class="input" id="aw-year" type="text" placeholder="2025"></div>
+      <div class="field"><label>Detail</label><input class="input" id="aw-detail" type="text" placeholder="Awarding body or short note"></div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="saveAward()">Save</button>
+      <button class="btn btn-outline" onclick="closeModal('m-award')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Certificate -->
+<div class="modal" id="m-certificate">
+  <div class="modal-card">
+    <div class="modal-head"><h3 id="ce-title">Add Certificate</h3><button class="x-btn" onclick="closeModal('m-certificate')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <input type="hidden" id="ce-id">
+      <div class="field"><label>Certificate title</label><input class="input" id="ce-name" type="text" placeholder="Lean Six Sigma Green Belt"></div>
+      <div class="field"><label>Issuing organisation</label><input class="input" id="ce-org" type="text" placeholder="Quality America / NC A&T"></div>
+      <div class="field"><label>Year</label><input class="input" id="ce-year" type="text" placeholder="2024"></div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="saveCertificate()">Save</button>
+      <button class="btn btn-outline" onclick="closeModal('m-certificate')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Blog post -->
+<div class="modal" id="m-post">
+  <div class="modal-card lg">
+    <div class="modal-head"><h3 id="po-title">Add Blog Post</h3><button class="x-btn" onclick="closeModal('m-post')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <input type="hidden" id="po-id">
+      <input type="hidden" id="po-image-data">
+      <div class="field"><label>Title</label><input class="input" id="po-name" type="text" placeholder="My experience at the SPE Composites Conference"></div>
+      <div class="field"><label>Short excerpt (shown on the card)</label><input class="input" id="po-excerpt" type="text" placeholder="One-sentence summary..."></div>
+      <div class="field"><label>Full post</label><textarea class="input" id="po-content" rows="7" placeholder="Write your post here. Blank lines create new paragraphs."></textarea></div>
+      <div class="two-col">
+        <div class="field">
+          <label>Date</label>
+          <input class="input" id="po-date" type="text" placeholder="e.g. Sep 2024">
+        </div>
+        <div class="field">
+          <label>Image (URL)</label>
+          <input class="input" id="po-image" type="text" placeholder="https://... or paste below">
+          <input class="file-input" style="margin-top:9px" type="file" accept="image/*" onchange="loadPostImage(this)">
+        </div>
+      </div>
+      <div class="field">
+        <label>Video (YouTube / Vimeo link, or .mp4 URL)</label>
+        <input class="input" id="po-video" type="text" placeholder="https://www.youtube.com/watch?v=...">
+        <div class="hint">Leave blank if the post has no video. Image and video can both be used in one post.</div>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="savePost()">Save Post</button>
+      <button class="btn btn-outline" onclick="closeModal('m-post')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Blog reader -->
+<div class="modal" id="m-read">
+  <div class="modal-card lg">
+    <div class="modal-head">
+      <h3 class="serif" id="rd-title" style="font-size:20px;line-height:1.35">Post</h3>
+      <button class="x-btn" onclick="closeModal('m-read')" data-icon="close" aria-label="Close"></button>
+    </div>
+    <div class="modal-body" id="rd-body"></div>
+    <div class="modal-foot">
+      <button class="btn btn-primary no-print" id="rd-edit" onclick="editFromReader()" data-icon="edit">Edit this post</button>
+      <button class="btn btn-outline" onclick="closeModal('m-read')">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Contact links -->
+<div class="modal" id="m-contact">
+  <div class="modal-card">
+    <div class="modal-head"><h3>Edit Contact Links</h3><button class="x-btn" onclick="closeModal('m-contact')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <div class="field"><label>Email address</label><input class="input" id="ct-email" type="email" placeholder="pusan.dhar@email.com"></div>
+      <div class="field"><label>LinkedIn URL</label><input class="input" id="ct-linkedin" type="text" placeholder="https://linkedin.com/in/..."></div>
+      <div class="field"><label>Google Scholar URL</label><input class="input" id="ct-scholar" type="text" placeholder="https://scholar.google.com/citations?user=..."></div>
+      <div class="field"><label>Google Scholar label (optional)</label><input class="input" id="ct-scholar-label" type="text" placeholder="View research profile"></div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="saveContact()">Save Changes</button>
+      <button class="btn btn-outline" onclick="closeModal('m-contact')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Section background -->
+<div class="modal" id="m-section-bg">
+  <div class="modal-card">
+    <div class="modal-head"><h3 id="sbg-title">Change Section Background</h3><button class="x-btn" onclick="closeModal('m-section-bg')" data-icon="close" aria-label="Close"></button></div>
+    <div class="modal-body">
+      <input type="hidden" id="sbg-section">
+      <div class="field"><label>Section</label><input class="input" id="sbg-name" type="text" readonly style="background:#f4f6fc"></div>
+      <div class="field"><label>Background image URL</label><input class="input" id="sbg-img" type="text" placeholder="https://example.com/image.jpg"></div>
+      <div class="field"><label>Or upload from your device</label><input class="file-input" style="margin-top:8px" type="file" accept="image/*" onchange="loadSectionBgImage(this)"></div>
+      <input type="hidden" id="sbg-img-data">
+      <div class="field"><label>Overlay opacity (for readability)</label>
+        <input type="range" id="sbg-overlay" min="0" max="0.8" step="0.05" value="0.42" style="width:100;margin-top:8px" oninput="document.getElementById('sbg-overlay-val').textContent = Math.round(this.value*100) + '% overlay — keeps text readable over the image'">
+        <span class="hint" id="sbg-overlay-val">42% darker overlay — keeps text readable over the image</span>
+      </div>
+      <div class="hint">Tip: use a high-quality photo URL, or upload from your device. For full-width sections, landscape images (1920×1080 or larger) fit best. Leave blank to remove the background image.</div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="saveSectionBg()">Apply Background</button>
+      <button class="btn btn-outline" onclick="clearSectionBg()">Remove Background</button>
+      <button class="btn btn-outline" onclick="closeModal('m-section-bg')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"><span id="toast-icon"></span><span id="toast-text"></span></div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+/* =====================================================================
+   1. ICONS  (inline SVG — no icon font or internet connection needed)
+   ===================================================================== */
+const SVG = {
+  edit:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>',
+  trash:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M19 6l-1 14H6L5 6"/></svg>',
+  plus:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>',
+  camera:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3l2-3h6l2 3h3a2 2 0 0 1 2 2Z"/><circle cx="12" cy="13" r="4"/></svg>',
+  close:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>',
+  check:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
+  mail:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="width:21px;height:21px"><rect x="2.5" y="4.5" width="19" height="15" rx="3"/><path d="m3.5 7.5 8.5 5.6 8.5-5.6"/></svg>',
+  linkedin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="width:21px;height:21px"><path d="M15.5 8.5a5 5 0 0 1 5 5v6h-4v-6a1.5 1.5 0 0 0-3 0v6h-4v-11h4v1.2"/><rect x="3.5" y="9" width="4" height="10.5" rx="1"/><circle cx="5.5" cy="5" r="1.8"/></svg>',
+  scholar:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="width:21px;height:21px"><path d="M22 9.5l-10-5-10 5 10 5 10-5Z"/><path d="M6.5 12v5c0 1.7 2.5 3 5.5 3s5.5-1.3 5.5-3v-5"/></svg>',
+  pin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10.5c0 5.5-8 11.5-8 11.5s-8-6-8-11.5a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10.5" r="2.8"/></svg>',
+  play:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5-11-6.5Z"/></svg>',
+  star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 6 6.3.6-4.8 4.2 1.4 6.2L12 16.8 6.4 20l1.4-6.2L3 9.6l6.3-.6Z"/></svg>',
+  medal:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5.2"/><path d="M8.6 13.6l-1.6 7.9 5-2.7 5 2.7-1.6-7.9"/></svg>',
+  laptop:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="11.5" rx="2.5"/><path d="M2.5 19.5h19"/></svg>',
+  flask:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6.2l-4.7 9.4A2 2 0 0 0 7 21.5h10a2 2 0 0 0 1.7-2.9l-4.7-9.4V3"/><path d="M7.5 15h9"/></svg>',
+  layers:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2.5 9 5-9 5-9-5 9-5Z"/><path d="m3 12.5 9 5 9-5"/><path d="m3 17 9 5 9-5"/></svg>',
+  download:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M5 21h14"/></svg>',
+  menu:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>',
+  send:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3l-11 10.5-6.8-18-3.7 7.5-15 15 18-18Z"/></svg>',
+  link:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
+  doc:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:28px;height:28px"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8Z"/><path d="M14 3v5h5"/></svg>'
+};
+const PHOTO_PLACEHOLDER = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16306b"/><stop offset="1" stop-color="#0f766e"/></linearGradient></defs><rect width="600" height="600" fill="url(#g)"/><circle cx="300" cy="230" r="88" fill="rgba(255,255,255,.26)"/><path d="M108 560c30-118 100-178 192-178s162 60 192 178z" fill="rgba(255,255,255,.26)"/><text x="300" y="352" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="rgba(255,255,255,.8)" letter-spacing="5">PUSAN DHAR</text></svg>');
+const MEDIA_PLACEHOLDER = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#123063"/><stop offset="1" stop-color="#9f1239"/></linearGradient></defs><rect width="800" height="500" fill="url(#g)"/><g fill="none" stroke="rgba(255,255,255,.55)" stroke-width="12" stroke-linecap="round"><path d="M355 205h-35a45 45 0 0 0 0 90h35"/><path d="M445 205h35a45 45 0 0 1 0 90h-35"/><path d="M340 250h120"/></g></svg>');
+
+/* =====================================================================
+   2. DEFAULT CONTENT  — edit these values to change the permanent content
+   ===================================================================== */
+const DEFAULTS = {
+  profile:{
+    photo:"",
+    name:"Pusan Dhar",
+    role:"Composites · Thermographic NDT · AI-driven materials characterization",
+    blurb:"I develop and validate methods that reveal hidden defects in advanced materials — combining active infrared thermography and acoustic emission with finite element analysis and deep learning.",
+    location:"Greensboro, NC",
+    stats:[
+      {value:"9+",label:"Years in industry"},
+      {value:"2", label:"Journal publications"},
+      {value:"7", label:"Conference talks"},
+      {value:"4", label:"Industry awards"}
+    ]
+  },
+  about:{
+    heading:"Engineer & researcher focused on advanced materials.",
+    p1:"I am a materials engineer and researcher with expertise in composite materials, nondestructive testing (NDT), thermographic evaluation, and machine learning for damage characterization. My work spans experimental characterisation and computational analysis — from active infrared thermography of CFRP laminates to finite element modelling of thin films.",
+    p2:"Currently a graduate researcher at North Carolina A&T State University, where I also served as a Graduate Teaching Assistant for Dynamics (MEEN 233), mentoring more than 90 undergraduate students. Before returning to academia I spent nine years at BSRM Steels Ltd., leading production teams, delivering record plant output and driving measurable cost and safety improvements.",
+    location:"Greensboro, North Carolina",
+    focus:"Graduate research, NC A&T State University",
+    status:"Open to research collaborations",
+    email:"pusan.dhar@email.com"
+  },
+  experiences:[
+    {id:"e1",role:"Graduate Researcher & Teaching Assistant",org:"North Carolina A&T State University",start:"Aug 2022",end:"Jul 2024",
+     desc:"Instructed and mentored 90+ undergraduate students in Dynamics (MEEN 233) — delivered lectures, led discussion groups and graded assessments. Conducted research on thermographic NDT, acoustic emission and deep learning for CFRP damage characterization."},
+    {id:"e2",role:"Deputy Manager (Production)",org:"BSRM Steels Ltd., Bangladesh",start:"Jul 2021",end:"Jul 2022",
+     desc:"Achieved record plant output of 180,000 MT/year and drove cost savings of $5.97 per MT through process optimisation. Led risk-management and plant-wide safety initiatives across the production unit."},
+    {id:"e3",role:"Assistant Manager (Production)",org:"BSRM Steels Ltd., Bangladesh",start:"Jul 2019",end:"Jun 2021",
+     desc:"Managed 150,000 MT/year production operations and implemented an ERP system that improved planning accuracy. Strengthened enterprise risk management across the business unit."},
+    {id:"e4",role:"Senior Engineer (Production)",org:"BSRM Steels Ltd., Bangladesh",start:"Mar 2013",end:"Jun 2019",
+     desc:"Sustained 91.5% process yield, reduced equipment breakdowns to under 3% annually and extended furnace lining life to 18+ cycles through reliability engineering."}
+  ],
+  research:[
+    {id:"r1",type:"Journal Publication",year:"2026",link:"https://doi.org/10.33599/SJ.v62no2.03",
+     title:"Deep Learning-Based Depth Estimation of Flat Bottom Holes in CFRP Using Active Infrared Thermography",
+     venue:"SAMPE Journal 62(2), 38 — Dhar, P., Amevorku, R., Amoateng-Mensah, D., Sundaresan, M."},
+    {id:"r2",type:"Journal Publication",year:"2026",link:"https://doi.org/10.3390/ma19102091",
+     title:"Classification and Parameter Selection for Damage Characterization in CFRP Composite Materials Using Acoustic Emission and Multivariate Statistics",
+     venue:"Materials 19(10), 2091 — Amoateng-Mensah, D., Amevorku, R. D., Dhar, P., Minhaj, T. B., Sundaresan, M. S."},
+    {id:"r3",type:"Conference Presentation",year:"2025",link:"",
+     title:"Active Thermography and Deep Learning for Composite Damage Assessment",
+     venue:"RIMSE Summer Research Conference 2025 — UC San Diego, San Diego, CA (Aug 2025)"},
+    {id:"r4",type:"Conference Presentation",year:"2024",link:"",
+     title:"Thermographic NDT of CFRP Composites",
+     venue:"SPE Automotive Composites Conference & Expo — Novi, MI (Sep 2024)"},
+    {id:"r5",type:"Conference Presentation",year:"2024",link:"",
+     title:"Defect Depth Estimation in Composite Materials",
+     venue:"32nd ASNT Research Symposium — Pittsburgh, PA (Jun 2024)"},
+    {id:"r6",type:"Poster",year:"2024",link:"",
+     title:"Damage Characterization in CFRP Using Acoustic Emission",
+     venue:"2nd Annual Graduate Research Symposium, NC A&T State University (Apr 2024)"},
+    {id:"r7",type:"Poster",year:"2024",link:"",
+     title:"Machine Learning for Nondestructive Evaluation",
+     venue:"13th Graduate Research Poster Competition, NC A&T State University (Mar 2024)"}
+  ],
+  skills:[
+    {title:"Software & Simulation",icon:"laptop",accent:"#1d4ed8",
+     items:["MATLAB","Python","Ansys LS-Dyna","COMSOL","Altair HyperMesh","AutoCAD","Virtuoso","MOSAIO"]},
+    {title:"Characterization & Testing",icon:"flask",accent:"#0f766e",
+     items:["Active IR Thermography","Acoustic Emission","SEM","XRD","PLD","OES","TGA"]},
+    {title:"Core Research Areas",icon:"layers",accent:"#b45309",
+     items:["Thermographic NDT","Finite Element Analysis","Composite Materials","Deep Learning for NDE","Thin Films"]}
+  ],
+  awards:[
+    {id:"a1",title:"3rd Place — CR2C2 Southeast Data Competition",year:"2026",detail:"Rural Mobility Solutions challenge"},
+    {id:"a2",title:"Outstanding Graduate Teaching Assistant Award",year:"2025",detail:"NC A&T State University"},
+    {id:"a3",title:"MEEN Travel Award",year:"2024",detail:"2024 ASNT Research Symposium & SPE Automotive Composites Conference"},
+    {id:"a4",title:"Merit Award for Academic Excellence",year:"2008",detail:"BUET undergraduate programme"},
+    {id:"a5",title:"Bangladesh Government Scholarship",year:"2007",detail:"Awarded for academic excellence"}
+  ],
+  certificates:[
+    {id:"c1",title:"Lean Six Sigma Green Belt",org:"Quality America / NC A&T",year:"2024"},
+    {id:"c2",title:"ISO 45001:2018 Internal Auditor",org:"IOTA Consulting",year:"2023"},
+    {id:"c3",title:"LEAP Program",org:"NC A&T State University",year:"2023"},
+    {id:"c4",title:"Total Quality Management",org:"BSRM Steels Ltd.",year:"2018"}
+  ],
+  posts:[
+    {id:"p1",title:"My Experience Presenting at the SPE Automotive Composites Conference",
+     excerpt:"Key takeaways from presenting thermographic NDT research at the 2024 SPE conference in Novi, Michigan.",
+     content:"Last September I presented my work on active infrared thermography for CFRP composites at the SPE Automotive Composites Conference & Expo in Novi, Michigan.\n\nThe conference brought together researchers and industry engineers working on the same problem from very different angles. My talk focused on using deep learning to estimate defect depth from thermographic data.\n\nThe most valuable part was the feedback from industry experts on how these methods could be deployed on a real manufacturing line. Nothing sharpens a research question like a production engineer asking how long your inspection takes.",
+     image:"",video:"",date:"Sep 2024"},
+    {id:"p2",title:"How Deep Learning Is Transforming Infrared Thermography",
+     excerpt:"Why convolutional neural networks improve defect depth estimation in composite materials.",
+     content:"In our SAMPE Journal paper we showed that combining active infrared thermography with convolutional neural networks significantly improves depth estimation of flat-bottom holes in CFRP.\n\nTraditional signal processing struggles with noise and material anisotropy. Our deep learning approach handled both more gracefully, and reduced the manual parameter tuning that normally slows down inspection.\n\nThe broader implication is exciting: inspection that adapts to the material rather than the other way round.",
+     image:"",video:"",date:"Feb 2026"},
+    {id:"p3",title:"Behind the Scenes: Publishing in the Materials Journal",
+     excerpt:"What the peer-review process taught us about validating machine learning models on composite data.",
+     content:"Getting our paper on acoustic emission and multivariate statistics accepted in Materials (MDPI) took nearly four months of review and revision.\n\nThe hardest part was validating our classification model across different composite layups — the reviewer was right to push us on it, and the paper is much stronger for the extra experiments.\n\nLesson learned: plan for the validation matrix in the first experiment, not the last.",
+     image:"",video:"",date:"Jan 2026"}
+  ],
+  contact:{
+    email:"pusan.dhar@email.com",
+    linkedin:"https://linkedin.com/in/pusandhar",
+    linkedinLabel:"linkedin.com/in/pusandhar",
+    scholar:"https://scholar.google.com/",
+    scholarLabel:"View research profile"
+  },
+  sectionBg:{
+    about:{img:"",overlay:.42},
+    experience:{img:"",overlay:.42},
+    research:{img:"",overlay:.42},
+    skills:{img:"",overlay:.42},
+    awards:{img:"",overlay:.42},
+    certificates:{img:"",overlay:.42},
+    blog:{img:"",overlay:.42},
+    contact:{img:"",overlay:.42},
+    hero:{img:"",overlay:.42}
+  }
+};
+
+/* =====================================================================
+   3. STATE + STORAGE
+   ===================================================================== */
+const STORAGE_KEY = "pusan-portfolio-v1";
+let storageOK = true;
+try { localStorage.setItem("__probe__","1"); localStorage.removeItem("__probe__"); }
+catch(e){ storageOK = false; }
+
+function clone(o){ return JSON.parse(JSON.stringify(o)); }
+function mergeState(base, saved){
+  if(!saved || typeof saved !== "object") return base;
+  Object.keys(base).forEach(function(k){
+    if(!(k in saved)) return;
+    const b = base[k], s = saved[k];
+    if(Array.isArray(b)){ if(Array.isArray(s)) base[k] = s; }
+    else if(b && typeof b === "object"){ base[k] = mergeState(b, s); }
+    else if(s !== undefined && s !== null){ base[k] = s; }
+  });
+  return base;
+}
+let state = (function(){
+  const base = clone(DEFAULTS);
+  if(!storageOK) return base;
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? mergeState(base, JSON.parse(raw)) : base;
+  }catch(e){ return base; }
+})();
+
+let quotaWarned = false;
+function persist(){
+  if(!storageOK) return;
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+  catch(e){
+    if(!quotaWarned){ quotaWarned = true; toast("Saved on the page — too large to store permanently (try image links instead of uploads)."); }
+  }
+}
+const uid = function(){ return "x" + Date.now().toString(36) + Math.random().toString(36).slice(2,6); };
+
+function upsert(list, id, data){
+  if(id){
+    const item = list.find(function(e){ return e.id === id; });
+    if(item){ Object.assign(item, data); return false; }
+  }
+  list.unshift(Object.assign({id: id || uid()}, data));
+  return true;
+}
+
+/* =====================================================================
+   4. HELPERS
+   ===================================================================== */
+function esc(s){
+  return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+  });
+}
+function nl2br(s){ return esc(s).replace(/\n+/g, "<br><br>"); }
+
+function toast(msg){
+  const t = document.getElementById("toast");
+  document.getElementById("toast-text").textContent = msg;
+  document.getElementById("toast-icon").innerHTML = SVG.check;
+  t.classList.add("show");
+  clearTimeout(toast._t);
+  toast._t = setTimeout(function(){ t.classList.remove("show"); }, 2600);
+}
+function openModal(id){
+  document.getElementById(id).classList.add("open");
+  document.body.classList.add("no-scroll");
+}
+function closeModal(id){
+  document.getElementById(id).classList.remove("open");
+  if(!document.querySelector(".modal.open")) document.body.classList.remove("no-scroll");
+}
+function closeAllModals(){
+  document.querySelectorAll(".modal.open").forEach(function(m){ m.classList.remove("open"); });
+  document.body.classList.remove("no-scroll");
+}
+function photoFallback(img){ img.onerror = null; img.src = PHOTO_PLACEHOLDER; }
+function mediaFallback(img){ img.onerror = null; img.src = MEDIA_PLACEHOLDER; }
+
+function embedUrl(url){
+  const yt = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{6,})/);
+  if(yt) return "https://www.youtube.com/embed/" + yt[1];
+  const vm = url.match(/vimeo\.com\/(\d+)/);
+  if(vm) return "https://player.vimeo.com/video/" + vm[1];
+  return url;
+}
+function isDirectVideo(url){ return /\.(mp4|webm|ogg|mov|m4v)(\?.*)?$/i.test(url); }
+
+function videoBlock(url, extraStyle){
+  if(!url) return "";
+  const style = extraStyle ? ' style="' + extraStyle + '"' : "";
+  if(isDirectVideo(url) || url.indexOf("data:video") === 0){
+    return '<video controls playsinline' + style + ' src="' + esc(url) + '"></video>';
+  }
+  return '<iframe' + style + ' src="' + esc(embedUrl(url)) + '" title="Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="width:100%;aspect-ratio:16/9;border:0;border-radius:18px;background:#0d2447"></iframe>';
+}
+
+/* =====================================================================
+   5. RENDER
+   ===================================================================== */
+function renderProfile(){
+  const p = state.profile;
+  document.getElementById("hero-name").textContent = p.name;
+  document.getElementById("hero-role").textContent = p.role;
+  document.getElementById("hero-blurb").textContent = p.blurb;
+  document.getElementById("hero-location").textContent = p.location;
+  const photo = document.getElementById("profile-photo");
+  const src = p.photo || PHOTO_PLACEHOLDER;
+  if(photo.getAttribute("src") !== src){ photo.onerror = function(){ photoFallback(this); }; photo.src = src; }
+
+  document.getElementById("hero-stats").innerHTML = (p.stats || []).map(function(s){
+    return '<div class="stat"><b>' + esc(s.value) + '</b><span>' + esc(s.label) + '</span></div>';
+  }).join("");
+}
+
+function renderAbout(){
+  const a = state.about;
+  document.getElementById("about-heading").textContent = a.heading;
+  document.getElementById("about-copy").innerHTML =
+    "<p>" + nl2br(a.p1) + "</p><p>" + nl2br(a.p2) + "</p>";
+  document.getElementById("about-location").textContent = a.location;
+  document.getElementById("about-focus").textContent = a.focus;
+  document.getElementById("about-status").textContent = a.status;
+  const mail = document.getElementById("about-email-link");
+  mail.textContent = a.email;
+  mail.href = "mailto:" + a.email;
+}
+
+function renderExperience(){
+  document.getElementById("experience-list").innerHTML = state.experiences.map(function(x){
+    return '' +
+    '<div class="exp">' +
+      '<div class="exp-dot"></div>' +
+      '<article class="card exp-card">' +
+        '<div class="exp-top">' +
+          '<div><div class="exp-role">' + esc(x.role) + '</div><div class="exp-org">' + esc(x.org) + '</div></div>' +
+          '<span class="chip">' + esc(x.start) + ' — ' + esc(x.end) + '</span>' +
+        '</div>' +
+        '<p class="exp-desc">' + nl2br(x.desc) + '</p>' +
+        '<div class="row-actions no-print" style="margin-top:14px">' +
+          '<button class="btn-mini mini-edit" onclick="openExperienceModal(\'' + x.id + '\')">' + SVG.edit + '<span>Edit</span></button>' +
+          '<button class="btn-mini mini-del" onclick="delExperience(\'' + x.id + '\')">' + SVG.trash + '<span>Remove</span></button>' +
+        '</div>' +
+      '</article>' +
+    '</div>';
+  }).join("");
+}
+
+function renderResearch(){
+  const el = document.getElementById("research-list");
+  if(!state.research.length){ el.innerHTML = '<p class="pub-venue">No publications yet — use “Add Publication”.</p>'; return; }
+  el.innerHTML = state.research.map(function(r){
+    return '' +
+    '<article class="card pub">' +
+      '<div class="pub-meta">' +
+        '<span class="tag">' + esc(r.type) + '</span>' +
+        '<span class="chip">' + esc(r.year) + '</span>' +
+      '</div>' +
+      '<h3>' + esc(r.title) + '</h3>' +
+      (r.venue ? '<p class="pub-venue">' + esc(r.venue) + '</p>' : '') +
+      (r.link ? '<a class="doi" href="' + esc(r.link) + '" target="_blank" rel="noopener">' + SVG.link + '<span>' + esc(r.link.replace(/^https?:\/\/(dx\.)?doi\.org\//,"DOI: ")) + '</span></a>' : '') +
+      '<div class="pub-foot row-actions no-print">' +
+        '<button class="btn-mini mini-edit" onclick="openResearchModal(\'' + r.id + '\')">' + SVG.edit + '<span>Edit</span></button>' +
+        '<button class="btn-mini mini-del" onclick="delResearch(\'' + r.id + '\')">' + SVG.trash + '<span>Remove</span></button>' +
+      '</div>' +
+    '</article>';
+  }).join("");
+}
+
+function renderSkills(){
+  document.getElementById("skills-list").innerHTML = state.skills.map(function(g){
+    return '' +
+    '<article class="card skill-card" style="--accent:' + esc(g.accent) + '">' +
+      '<div class="skill-head">' +
+        '<span class="icon-tile">' + (SVG[g.icon] || SVG.layers) + '</span>' +
+        '<h3>' + esc(g.title) + '</h3>' +
+      '</div>' +
+      '<div class="pills">' + (g.items || []).map(function(i){ return '<span class="pill">' + esc(i) + '</span>'; }).join("") + '</div>' +
+    '</article>';
+  }).join("");
+}
+
+function renderAwards(){
+  document.getElementById("awards-list").innerHTML = state.awards.map(function(a){
+    return '' +
+    '<article class="card award">' +
+      '<span class="award-icon">' + SVG.star + '</span>' +
+      '<h3>' + esc(a.title) + '</h3>' +
+      '<div class="yr">' + esc(a.year) + '</div>' +
+      (a.detail ? '<p>' + esc(a.detail) + '</p>' : '') +
+      '<div class="row-actions no-print" style="margin-top:14px">' +
+        '<button class="btn-mini mini-edit" onclick="openAwardModal(\'' + a.id + '\')">' + SVG.edit + '<span>Edit</span></button>' +
+        '<button class="btn-mini mini-del" onclick="delAward(\'' + a.id + '\')">' + SVG.trash + '<span>Remove</span></button>' +
+      '</div>' +
+    '</article>';
+  }).join("");
+}
+
+function renderCertificates(){
+  document.getElementById("certificates-list").innerHTML = state.certificates.map(function(c){
+    return '' +
+    '<article class="card cert">' +
+      '<span class="award-icon" style="--accent:#047857">' + SVG.medal + '</span>' +
+      '<div style="flex:1">' +
+        '<h3>' + esc(c.title) + '</h3>' +
+        '<div class="org">' + esc(c.org) + '</div>' +
+        '<div class="foot">' +
+          '<span class="chip">' + esc(c.year) + '</span>' +
+          '<div class="row-actions no-print">' +
+            '<button class="btn-mini mini-edit" onclick="openCertificateModal(\'' + c.id + '\')">' + SVG.edit + '<span>Edit</span></button>' +
+            '<button class="btn-mini mini-del" onclick="delCertificate(\'' + c.id + '\')">' + SVG.trash + '</button>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+    '</article>';
+  }).join("");
+}
+
+const TILE_GRADIENTS = [
+  "linear-gradient(135deg,#123063 0%,#9f1239 100%)",
+  "linear-gradient(135deg,#0b3b4a 0%,#0f766e 100%)",
+  "linear-gradient(135deg,#3b1f6b 0%,#1d4ed8 100%)",
+  "linear-gradient(135deg,#5a3a08 0%,#b45309 100%)",
+  "linear-gradient(135deg,#1e3a8a 0%,#0e7490 100%)"
+];
+function tileGradient(i){ return TILE_GRADIENTS[i % TILE_GRADIENTS.length]; }
+
+function renderPosts(){
+  const el = document.getElementById("blog-list");
+  if(!state.posts.length){ el.innerHTML = '<p class="pub-venue">No posts yet — use “Add Blog Post”.</p>'; return; }
+  el.innerHTML = state.posts.map(function(p, i){
+    let media;
+    if(p.image){
+      media = '<img src="' + esc(p.image) + '" alt="" onerror="mediaFallback(this)">';
+    } else if(p.video){
+      media = '<div style="position:absolute;inset:0;background:' + tileGradient(i) + '"></div>' +
+              '<div class="play"><span>' + SVG.play + '</span></div>';
+    } else {
+      media = '<div style="position:absolute;inset:0;background:' + tileGradient(i) + '"></div>' +
+              '<div style="position:absolute;inset:0;display:grid;place-items:center;color:rgba(255,255,255,.85)">' + SVG.doc + '</div>';
+    }
+    return '' +
+    '<article class="card blog-card">' +
+      '<div class="blog-media">' + media + '<span class="date-chip">' + esc(p.date) + '</span></div>' +
+      '<div class="blog-body">' +
+        '<h3 class="serif clamp-title">' + esc(p.title) + '</h3>' +
+        '<p class="clamp-3">' + esc(p.excerpt) + '</p>' +
+        '<div class="blog-foot">' +
+          '<button class="read-more" onclick="openReader(\'' + p.id + '\')">Read more <span aria-hidden="true">&rarr;</span></button>' +
+          '<div class="row-actions no-print">' +
+            '<button class="btn-mini mini-edit" onclick="openPostModal(\'' + p.id + '\')">' + SVG.edit + '<span>Edit</span></button>' +
+            '<button class="btn-mini mini-del" onclick="delPost(\'' + p.id + '\')">' + SVG.trash + '</button>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+    '</article>';
+  }).join("");
+}
+
+function renderContact(){
+  const c = state.contact;
+  const mail = document.getElementById("card-email");
+  mail.href = "mailto:" + c.email;
+  document.getElementById("contact-email-text").textContent = c.email;
+  document.getElementById("form-note-email").textContent = c.email;
+  document.getElementById("card-linkedin").href = c.linkedin || "#";
+  document.getElementById("contact-linkedin-text").textContent = c.linkedinLabel || c.linkedin;
+  document.getElementById("card-scholar").href = c.scholar || "#";
+  document.getElementById("contact-scholar-text").textContent = c.scholarLabel || "View profile";
+}
+
+function renderAll(){
+  renderProfile(); renderAbout(); renderExperience(); renderResearch();
+  renderSkills(); renderAwards(); renderCertificates(); renderPosts(); renderContact();
+}
+function save(msg){ persist(); renderAll(); if(msg) toast(msg); }
+
+/* =====================================================================
+   6. MODAL OPENERS / SAVERS
+   ===================================================================== */
+/* ---- profile ---- */
+function openProfileModal(focusPhoto){
+  const p = state.profile;
+  document.getElementById("pf-photo").value = p.photo || "";
+  document.getElementById("pf-name").value = p.name;
+  document.getElementById("pf-role").value = p.role;
+  document.getElementById("pf-blurb").value = p.blurb;
+  document.getElementById("pf-location").value = p.location;
+  const st = p.stats || [];
+  for(let i=0;i<4;i++){
+    document.getElementById("pf-s"+(i+1)+"v").value = st[i] ? st[i].value : "";
+    document.getElementById("pf-s"+(i+1)+"l").value = st[i] ? st[i].label : "";
+  }
+  const prev = document.getElementById("pf-preview");
+  prev.onerror = function(){ photoFallback(this); };
+  prev.src = p.photo || PHOTO_PLACEHOLDER;
+  openModal("m-profile");
+  if(focusPhoto) setTimeout(function(){ document.getElementById("pf-photo").focus(); }, 60);
+}
+function saveProfile(){
+  const p = state.profile;
+  p.photo = document.getElementById("pf-photo").value.trim();
+  p.name = document.getElementById("pf-name").value.trim() || "Pusan Dhar";
+  p.role = document.getElementById("pf-role").value.trim();
+  p.blurb = document.getElementById("pf-blurb").value.trim();
+  p.location = document.getElementById("pf-location").value.trim();
+  p.stats = [1,2,3,4].map(function(i){
+    return { value: document.getElementById("pf-s"+i+"v").value.trim(),
+             label: document.getElementById("pf-s"+i+"l").value.trim() };
+  }).filter(function(s){ return s.value || s.label; });
+  closeModal("m-profile");
+  save("Profile updated!");
+}
+function loadPhotoFile(input){
+  const f = input.files && input.files[0];
+  if(!f) return;
+  const r = new FileReader();
+  r.onload = function(e){
+    document.getElementById("pf-photo").value = e.target.result;
+    document.getElementById("pf-preview").src = e.target.result;
+  };
+  r.readAsDataURL(f);
+}
+
+/* ---- about ---- */
+function openAboutModal(){
+  const a = state.about;
+  document.getElementById("ab-heading").value = a.heading;
+  document.getElementById("ab-p1").value = a.p1;
+  document.getElementById("ab-p2").value = a.p2;
+  document.getElementById("ab-location").value = a.location;
+  document.getElementById("ab-focus").value = a.focus;
+  document.getElementById("ab-status").value = a.status;
+  document.getElementById("ab-email").value = a.email;
+  openModal("m-about");
+}
+function saveAbout(){
+  const a = state.about;
+  a.heading = document.getElementById("ab-heading").value.trim();
+  a.p1 = document.getElementById("ab-p1").value.trim();
+  a.p2 = document.getElementById("ab-p2").value.trim();
+  a.location = document.getElementById("ab-location").value.trim();
+  a.focus = document.getElementById("ab-focus").value.trim();
+  a.status = document.getElementById("ab-status").value.trim();
+  a.email = document.getElementById("ab-email").value.trim();
+  closeModal("m-about");
+  save("About section updated!");
+}
+
+/* ---- experience ---- */
+function openExperienceModal(id){
+  const x = id ? state.experiences.find(function(e){ return e.id === id; }) : null;
+  document.getElementById("ex-title").textContent = x ? "Edit Experience" : "Add Experience";
+  document.getElementById("ex-id").value = x ? x.id : "";
+  document.getElementById("ex-role").value = x ? x.role : "";
+  document.getElementById("ex-org").value = x ? x.org : "";
+  document.getElementById("ex-start").value = x ? x.start : "";
+  document.getElementById("ex-end").value = x ? x.end : "";
+  document.getElementById("ex-desc").value = x ? x.desc : "";
+  openModal("m-experience");
+}
+function saveExperience(){
+  const id = document.getElementById("ex-id").value;
+  const data = {
+    role: document.getElementById("ex-role").value.trim(),
+    org: document.getElementById("ex-org").value.trim(),
+    start: document.getElementById("ex-start").value.trim(),
+    end: document.getElementById("ex-end").value.trim(),
+    desc: document.getElementById("ex-desc").value.trim()
+  };
+  if(!data.role){ toast("Please enter a role title."); return; }
+  const created = upsert(state.experiences, id, data);
+  closeModal("m-experience");
+  save(created ? "Experience added!" : "Experience updated!");
+}
+function delExperience(id){
+  if(!confirm("Remove this experience entry?")) return;
+  state.experiences = state.experiences.filter(function(e){ return e.id !== id; });
+  save("Experience removed");
+}
+
+/* ---- research ---- */
+function openResearchModal(id){
+  const r = id ? state.research.find(function(e){ return e.id === id; }) : null;
+  document.getElementById("re-title").textContent = r ? "Edit Publication" : "Add Publication";
+  document.getElementById("re-id").value = r ? r.id : "";
+  document.getElementById("re-name").value = r ? r.title : "";
+  document.getElementById("re-type").value = r ? r.type : "Journal Publication";
+  document.getElementById("re-year").value = r ? r.year : "";
+  document.getElementById("re-venue").value = r ? r.venue : "";
+  document.getElementById("re-link").value = r ? r.link : "";
+  openModal("m-research");
+}
+function saveResearch(){
+  const id = document.getElementById("re-id").value;
+  const data = {
+    title: document.getElementById("re-name").value.trim(),
+    type: document.getElementById("re-type").value,
+    year: document.getElementById("re-year").value.trim(),
+    venue: document.getElementById("re-venue").value.trim(),
+    link: document.getElementById("re-link").value.trim()
+  };
+  if(!data.title){ toast("Please enter a title."); return; }
+  const created = upsert(state.research, id, data);
+  closeModal("m-research");
+  save(created ? "Publication added!" : "Publication updated!");
+}
+function delResearch(id){
+  if(!confirm("Remove this entry?")) return;
+  state.research = state.research.filter(function(e){ return e.id !== id; });
+  save("Entry removed");
+}
+
+/* ---- skills ---- */
+function openSkillsModal(){
+  state.skills.forEach(function(g,i){
+    document.getElementById("sk-t"+i).value = g.title;
+    document.getElementById("sk-i"+i).value = g.items.join(", ");
+  });
+  openModal("m-skills");
+}
+function saveSkills(){
+  state.skills.forEach(function(g,i){
+    g.title = document.getElementById("sk-t"+i).value.trim() || g.title;
+    g.items = document.getElementById("sk-i"+i).value.split(",").map(function(s){ return s.trim(); }).filter(Boolean);
+  });
+  closeModal("m-skills");
+  save("Skills updated!");
+}
+
+/* ---- awards ---- */
+function openAwardModal(id){
+  const a = id ? state.awards.find(function(e){ return e.id === id; }) : null;
+  document.getElementById("aw-title").textContent = a ? "Edit Award" : "Add Award";
+  document.getElementById("aw-id").value = a ? a.id : "";
+  document.getElementById("aw-name").value = a ? a.title : "";
+  document.getElementById("aw-year").value = a ? a.year : "";
+  document.getElementById("aw-detail").value = a ? a.detail : "";
+  openModal("m-award");
+}
+function saveAward(){
+  const id = document.getElementById("aw-id").value;
+  const data = {
+    title: document.getElementById("aw-name").value.trim(),
+    year: document.getElementById("aw-year").value.trim(),
+    detail: document.getElementById("aw-detail").value.trim()
+  };
+  if(!data.title){ toast("Please enter an award title."); return; }
+  const created = upsert(state.awards, id, data);
+  closeModal("m-award");
+  save(created ? "Award added!" : "Award updated!");
+}
+function delAward(id){
+  if(!confirm("Remove this award?")) return;
+  state.awards = state.awards.filter(function(e){ return e.id !== id; });
+  save("Award removed");
+}
+
+/* ---- certificates ---- */
+function openCertificateModal(id){
+  const c = id ? state.certificates.find(function(e){ return e.id === id; }) : null;
+  document.getElementById("ce-title").textContent = c ? "Edit Certificate" : "Add Certificate";
+  document.getElementById("ce-id").value = c ? c.id : "";
+  document.getElementById("ce-name").value = c ? c.title : "";
+  document.getElementById("ce-org").value = c ? c.org : "";
+  document.getElementById("ce-year").value = c ? c.year : "";
+  openModal("m-certificate");
+}
+function saveCertificate(){
+  const id = document.getElementById("ce-id").value;
+  const data = {
+    title: document.getElementById("ce-name").value.trim(),
+    org: document.getElementById("ce-org").value.trim(),
+    year: document.getElementById("ce-year").value.trim()
+  };
+  if(!data.title){ toast("Please enter a certificate title."); return; }
+  const created = upsert(state.certificates, id, data);
+  closeModal("m-certificate");
+  save(created ? "Certificate added!" : "Certificate updated!");
+}
+function delCertificate(id){
+  if(!confirm("Remove this certificate?")) return;
+  state.certificates = state.certificates.filter(function(e){ return e.id !== id; });
+  save("Certificate removed");
+}
+
+/* ---- blog ---- */
+function openPostModal(id){
+  const p = id ? state.posts.find(function(e){ return e.id === id; }) : null;
+  document.getElementById("po-title").textContent = p ? "Edit Blog Post" : "Add Blog Post";
+  document.getElementById("po-id").value = p ? p.id : "";
+  document.getElementById("po-name").value = p ? p.title : "";
+  document.getElementById("po-excerpt").value = p ? p.excerpt : "";
+  document.getElementById("po-content").value = p ? p.content : "";
+  document.getElementById("po-image").value = p ? (p.image && p.image.indexOf("data:") === 0 ? "" : p.image) : "";
+  document.getElementById("po-image-data").value = p && p.image && p.image.indexOf("data:") === 0 ? p.image : "";
+  document.getElementById("po-video").value = p ? p.video : "";
+  document.getElementById("po-date").value = p ? p.date : new Date().toLocaleDateString("en-US",{month:"short",year:"numeric"});
+  openModal("m-post");
+}
+function loadPostImage(input){
+  const f = input.files && input.files[0];
+  if(!f) return;
+  const r = new FileReader();
+  r.onload = function(e){
+    document.getElementById("po-image-data").value = e.target.result;
+    document.getElementById("po-image").value = "";
+    document.getElementById("po-image").placeholder = "Image uploaded from your device ✔";
+  };
+  r.readAsDataURL(f);
+}
+function savePost(){
+  const id = document.getElementById("po-id").value;
+  const urlImg = document.getElementById("po-image").value.trim();
+  const dataImg = document.getElementById("po-image-data").value;
+  const content = document.getElementById("po-content").value.trim();
+  const data = {
+    title: document.getElementById("po-name").value.trim(),
+    excerpt: document.getElementById("po-excerpt").value.trim(),
+    content: content,
+    image: urlImg || dataImg || "",
+    video: document.getElementById("po-video").value.trim(),
+    date: document.getElementById("po-date").value.trim() || new Date().toLocaleDateString("en-US",{month:"short",year:"numeric"})
+  };
+  if(!data.title || !content){ toast("A title and post content are required."); return; }
+  if(!data.excerpt) data.excerpt = content.replace(/\s+/g," ").slice(0,140) + "…";
+  const created = upsert(state.posts, id, data);
+  document.getElementById("po-image-data").value = "";
+  closeModal("m-post");
+  save(created ? "Post published!" : "Post updated!");
+}
+function delPost(id){
+  if(!confirm("Delete this blog post?")) return;
+  state.posts = state.posts.filter(function(e){ return e.id !== id; });
+  save("Post deleted");
+}
+let readerId = null;
+function openReader(id){
+  const p = state.posts.find(function(e){ return e.id === id; });
+  if(!p) return;
+  readerId = id;
+  document.getElementById("rd-title").textContent = p.title;
+  let html = "";
+  if(p.image) html += '<img src="' + esc(p.image) + '" alt="" onerror="mediaFallback(this)" style="width:100%;border-radius:18px;margin-bottom:20px;display:block">';
+  html += '<div class="chip" style="margin-bottom:16px">' + esc(p.date) + '</div>';
+  html += '<div class="post-content">' + nl2br(p.content) + '</div>';
+  if(p.video) html += '<div style="margin-top:22px">' + videoBlock(p.video) + '</div>';
+  html += '<p class="form-note" style="margin-top:22px;color:#7c88ab">Written by ' + esc(state.profile.name) + '</p>';
+  document.getElementById("rd-body").innerHTML = html;
+  openModal("m-read");
+}
+function editFromReader(){
+  const id = readerId;
+  closeModal("m-read");
+  openPostModal(id);
+}
+
+/* ---- contact ---- */
+function openContactModal(){
+  const c = state.contact;
+  document.getElementById("ct-email").value = c.email;
+  document.getElementById("ct-linkedin").value = c.linkedin;
+  document.getElementById("ct-scholar").value = c.scholar;
+  document.getElementById("ct-scholar-label").value = c.scholarLabel || "";
+  openModal("m-contact");
+}
+function saveContact(){
+  const c = state.contact;
+  c.email = document.getElementById("ct-email").value.trim();
+  c.linkedin = document.getElementById("ct-linkedin").value.trim();
+  c.scholar = document.getElementById("ct-scholar").value.trim();
+  c.scholarLabel = document.getElementById("ct-scholar-label").value.trim() || "View profile";
+  c.linkedinLabel = (c.linkedin || "").replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,"");
+  state.about.email = c.email || state.about.email;
+  closeModal("m-contact");
+  save("Contact links updated!");
+}
+
+/* ---- section backgrounds ---- */
+function openSectionBgModal(section){
+  document.getElementById("sbg-section").value = section;
+  document.getElementById("sbg-name").value = section.charAt(0).toUpperCase() + section.slice(1);
+  const bg = state.sectionBg[section] || {img:"",overlay:.42};
+  document.getElementById("sbg-img").value = bg.img;
+  document.getElementById("sbg-overlay").value = bg.overlay;
+  document.getElementById("sbg-overlay-val").textContent = Math.round(bg.overlay*100) + "% overlay — keeps text readable over the image";
+  openModal("m-section-bg");
+}
+function loadSectionBgImage(input){
+  const f = input.files && input.files[0];
+  if(!f) return;
+  const r = new FileReader();
+  r.onload = function(e){
+    document.getElementById("sbg-img-data").value = e.target.result;
+    document.getElementById("sbg-img").value = "";
+    document.getElementById("sbg-img").placeholder = "Image uploaded from your device ✔";
+  };
+  r.readAsDataURL(f);
+}
+
+function saveSectionBg(){
+  const section = document.getElementById("sbg-section").value;
+  const urlImg = document.getElementById("sbg-img").value.trim();
+  const dataImg = document.getElementById("sbg-img-data").value;
+  const img = urlImg || dataImg || "";
+  const overlay = parseFloat(document.getElementById("sbg-overlay").value) || 0.42;
+  state.sectionBg[section] = {img:img,overlay:overlay};
+  closeModal("m-section-bg");
+  applySectionBg(section);
+  persist();
+  toast("Background updated for " + section);
+}
+function clearSectionBg(){
+  const section = document.getElementById("sbg-section").value;
+  state.sectionBg[section] = {img:"",overlay:.42};
+  closeModal("m-section-bg");
+  applySectionBg(section);
+  persist();
+  toast("Background removed");
+}
+function applySectionBg(section){
+  const el = document.getElementById("user-bg-" + section);
+  const bg = state.sectionBg[section] || {img:"",overlay:.42};
+  if(!el) return;
+  if(bg.img){
+    el.style.backgroundImage = "url(" + bg.img + ")";
+    el.style.display = "block";
+    // overlay opacity via the pseudo :after — control via inline style on a style tag
+    document.getElementById("sbg-overlay-style") || addOverlayStyle();
+    updateOverlayOpacity(section, bg.overlay);
+  } else {
+    el.style.display = "none";
+    el.style.backgroundImage = "none";
+  }
+}
+function addOverlayStyle(){
+  const s = document.createElement("style");
+  s.id = "sbg-overlay-style";
+  document.head.appendChild(s);
+}
+function updateOverlayOpacity(section, val){
+  const s = document.getElementById("sbg-overlay-style");
+  if(!s) return;
+  // map section to its user-bg element for overlay
+  s.textContent = (s.textContent || "") +
+    "#user-bg-" + section + ":after{opacity:" + val + "!important}\n";
+}
+function applyAllSectionBgs(){
+  Object.keys(state.sectionBg).forEach(function(section){
+    applySectionBg(section);
+  });
+}
+
+/* ---- misc ---- */
+function submitContactForm(e){
+  e.preventDefault();
+  const name = document.getElementById("cf-name").value.trim();
+  const from = document.getElementById("cf-email").value.trim();
+  const msg = document.getElementById("cf-message").value.trim();
+  const to = state.contact.email;
+  const subject = "Website enquiry from " + name;
+  const body = msg + "\n\n— " + name + " (" + from + ")";
+  window.location.href = "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  toast("Opening your email app…");
+  e.target.reset();
+}
+function resumeClick(){ toast("Downloading resume…"); }
+function toggleMenu(){ document.getElementById("mobileMenu").classList.toggle("open"); }
+function resetContent(){
+  if(!confirm("Reset all in-browser edits and restore the original content?")) return;
+  try{ localStorage.removeItem(STORAGE_KEY); }catch(e){}
+  state = clone(DEFAULTS);
+  renderAll();
+  toast("Content reset to defaults");
+}
+
+/* =====================================================================
+   7. INIT
+   ===================================================================== */
+function paintIcons(){
+  document.querySelectorAll("[data-icon]").forEach(function(el){
+    const svg = SVG[el.getAttribute("data-icon")];
+    if(svg) el.insertAdjacentHTML("afterbegin", svg);
+  });
+  document.getElementById("pin-icon").innerHTML = SVG.pin;
+}
+function activeNav(){
+  if(!("IntersectionObserver" in window)) return;
+  const links = document.querySelectorAll("#navLinks a");
+  const map = {};
+  links.forEach(function(a){ map[a.getAttribute("href").slice(1)] = a; });
+  const obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      const a = map[en.target.id];
+      if(!a) return;
+      if(en.isIntersecting){
+        links.forEach(function(l){ l.classList.remove("active"); });
+        a.classList.add("active");
+      }
+    });
+  }, { rootMargin:"-45% 0px -50% 0px" });
+  document.querySelectorAll("section[id]").forEach(function(s){ obs.observe(s); });
+}
+document.addEventListener("keydown", function(e){
+  if(e.key === "Escape") closeAllModals();
+});
+document.querySelectorAll(".modal").forEach(function(m){
+  m.addEventListener("mousedown", function(e){ if(e.target === m) closeModal(m.id); });
+});
+document.getElementById("year").textContent = new Date().getFullYear();
+paintIcons();
+renderAll();
+applyAllSectionBgs();
+activeNav();
+if(!storageOK){
+  console.log("[Portfolio] localStorage unavailable — edits work for this visit but will not persist.");
+}
+</script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5c297930bfbdc40',t:'MTc5NDk1ODk0OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5c297930bfbdc40',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
